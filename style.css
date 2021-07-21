@@ -1,0 +1,23 @@
+/*header*/
+
+header
+{
+    background-color: darkgray;
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo
+{
+    width: 200px;
+    height: 50px;
+}
+
+header a
+{
+
+    
+    border: solid black 1px;
+    
+}
