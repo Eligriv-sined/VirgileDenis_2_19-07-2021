@@ -2,13 +2,34 @@
 
 header
 {
-    background-color: darkgray;
-    justify-content: space-between;
-    align-items: flex-end;
+    background-color:white;
+  
 }
+
 
 .logo
 {
     width: 200px;
     height: 50px;
+    float: left;
+}
+
+#liens
+{   position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+header a
+{
+    margin-right: 15px;
+    border: 2px solid blue;
+    
+}
+
+header h1
+{
+    clear: both;
 }
