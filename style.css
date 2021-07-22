@@ -9,7 +9,7 @@ header
 
 .logo
 {
-    width: 200px;
+    width: 100px;
     height: 50px;
     float: left;
 }
@@ -32,4 +32,28 @@ header a
 header h1
 {
     clear: both;
+}
+
+/* filtres*/
+
+.Filtres
+{
+    display: flex;
+    align-items: center;
+}
+
+.margefiltres
+{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}  
+
+.titrefiltres
+{
+    margin-right: 20px;
+}
+
+.eco,.familles,.romantiques,.animaux
+{
+    margin-right: 15px;
 }
