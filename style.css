@@ -43,6 +43,7 @@ header h1
 {
     display: flex;
     align-items: center;
+
 }
 
 .margefiltres
@@ -54,14 +55,6 @@ header h1
 .titrefiltres
 {
     margin-right: 20px;
-    
-}
-
-.eco,.familles,.romantiques,.animaux
-{
-    margin-right: 15px;
-   
-    
 }
 
 .icontext
@@ -71,10 +64,7 @@ header h1
     height: 50px;
     border-radius: 30px;
     margin-right: 30px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-   
+    
 }
 
 .filtresicone
@@ -84,14 +74,22 @@ header h1
     height: 52px;
     color: #0065fc;
     background-color: #deebff; 
+   
+   
 }
+#test
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
     
+}
 
 .textfiltres
 {
     color: black;
-
-
+   
 }
 
 
