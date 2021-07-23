@@ -78,6 +78,7 @@ header h1
 {
     display: flex;
   justify-content: center;
+  
 
 }
 
@@ -132,7 +133,7 @@ header h1
 
 .port
 {
-        padding-top: 10px;
+    
         margin-left: 50px;
         border: 1px transparent black;
         border-radius: 50px;
@@ -142,13 +143,13 @@ header h1
         flex-direction: column;
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
-    
+        overflow: hidden;
     }
 
 
 .mouette
 {
-    padding-top: 10px;
+    
     margin-left: 50px;
         border: 1px transparent black;
         border-radius: 50px;
@@ -158,13 +159,13 @@ header h1
         flex-direction: column;
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
-    
+        overflow: hidden;
 
 }
 
 .mer
 {
-    padding-top: 10px;
+    
     margin-left: 50px;
         border: 1px transparent black;
         border-radius: 50px;
@@ -174,12 +175,11 @@ header h1
         flex-direction: column;
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
-    
+        overflow: hidden;
 }
 
 .amina
 {
-    padding-top: 10px;
     margin-left: 50px;
     border: 1px transparent black;
     border-radius: 50px;
@@ -189,12 +189,12 @@ header h1
     flex-direction: column;
     background-color: white;
     box-shadow: #f2f2f2 1px 1px 1px;
-
+    overflow: hidden;
 }
 
 .panier
 {
-    padding-top: 10px;
+    
     margin-left: 50px;
     border: 1px transparent black;
     border-radius: 50px;
@@ -204,6 +204,7 @@ header h1
     flex-direction: column;
     background-color: white;
     box-shadow: #f2f2f2 1px 1px 1px;
+    overflow: hidden;
 
 
 }
@@ -219,6 +220,10 @@ header h1
     height:755px;
     width: 650px;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    clear: right;
+    
    
 }  
 
@@ -235,17 +240,52 @@ header h1
 .titresection2
 {
     display: flex;
-    clear: both;
     margin-top: 20px;
     margin-left: 50px;
     height: 50px;
     width: 600px;
+       
 }
 
-.align2
+
+
+.soleil
 {
+    
+    border: 1px transparent black;
+    border-radius: 50px;
+    height: 320px;
+    width: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
+    box-shadow: #f2f2f2 1px 1px 1px;
+    
+}
+
+.coeurdeau
+{ padding-top: 10px;
+    margin-left: 50px;
+    border: 1px transparent black;
+    border-radius: 50px;
+    height: 320px;
+    width: 250px;
+    display: flex;
+    
+    background-color: white;
+    box-shadow: #f2f2f2 1px 1px 1px;
+}
+
+.bleublan
+{
+     padding-top: 10px;
+        margin-left: 50px;
+        border: 1px transparent black;
+        border-radius: 50px;
+        height: 320px;
+    width: 250px;
+        display: flex;
+        background-color: white;
+        
+        box-shadow: #f2f2f2 1px 1px 1px;
+    
 }
