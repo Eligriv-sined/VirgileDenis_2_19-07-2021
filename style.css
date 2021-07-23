@@ -91,6 +91,7 @@ header h1
 {
     height: 150px;
     width: 250px;
+    
 }
 
 
@@ -99,39 +100,39 @@ header h1
     border:transparent 1px;
     border-radius: 30px;
     background-color: #f2f2f2;
-    height:750px;
-    width: 900px;
+    height:755px;
+    width: 950px;
+    float: left;
+    
 
 }
 
 .cannebiere
 {
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    box-shadow: #f2f2f2 1px 1px 1px;
-
-
+    padding-top: 10px;
+    margin-left: 50px;
+        border: 1px transparent black;
+        border-radius: 50px;
+        height: 320px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: #f2f2f2 1px 1px 1px;
+    
 }
 
-.titresections
+.titresection
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
     
-
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .port
 {
+        padding-top: 10px;
         margin-left: 50px;
         border: 1px transparent black;
         border-radius: 50px;
@@ -139,8 +140,6 @@ header h1
         width: 250px;
         display: flex;
         flex-direction: column;
-        justify-content:flex-end;
-        align-items: center;
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
     
@@ -149,69 +148,104 @@ header h1
 
 .mouette
 {
-   
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    align-items: center;
-    background-color: white;
+    padding-top: 10px;
     margin-left: 50px;
-    box-shadow: #f2f2f2 1px 1px 1px;
+        border: 1px transparent black;
+        border-radius: 50px;
+        height: 320px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: #f2f2f2 1px 1px 1px;
+    
 
 }
 
 .mer
 {
+    padding-top: 10px;
+    margin-left: 50px;
+        border: 1px transparent black;
+        border-radius: 50px;
+        height: 320px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: #f2f2f2 1px 1px 1px;
     
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end;
-    align-items: center;
-    background-color: white;
-    margin-right: 15px;
-    box-shadow: #f2f2f2 1px 1px 1px;
-    margin-top: 15px;
-
 }
 
 .amina
 {
-    margin-left: 25px;
+    padding-top: 10px;
+    margin-left: 50px;
     border: 1px transparent black;
     border-radius: 50px;
     height: 320px;
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
-    align-items: center;
     background-color: white;
-    margin-left: 50px;
     box-shadow: #f2f2f2 1px 1px 1px;
-    margin-top: 15px;
+
 }
 
 .panier
 {
-    margin-left: 25px;
+    padding-top: 10px;
+    margin-left: 50px;
     border: 1px transparent black;
     border-radius: 50px;
     height: 320px;
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
-    align-items: center;
     background-color: white;
     box-shadow: #f2f2f2 1px 1px 1px;
-    margin-top: 15px;
 
+
+}
+
+
+/* section 2 les plus populaires*/
+
+#populaire
+{
+    border:transparent 1px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    height:755px;
+    width: 650px;
+    display: flex;
+   
+}  
+
+.logopop
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    height: 16px;
+    width: 16px;
+    
+    
+}
+.titresection2
+{
+    display: flex;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 50px;
+    width: 600px;
+}
+
+.align2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
