@@ -108,32 +108,9 @@ header h1
 
 }
 
-.cannebiere
+.alingcont
 {
-    padding-top: 10px;
-    margin-left: 50px;
-        border: 1px transparent black;
-        border-radius: 50px;
-        height: 320px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        box-shadow: #f2f2f2 1px 1px 1px;
-    
-}
-
-.titresection
-{
-    display: flex;
-    
-    margin-top: 20px;
-    margin-left: 50px;
-}
-
-.port
-{
-    
+        padding-top: 10px;
         margin-left: 50px;
         border: 1px transparent black;
         border-radius: 50px;
@@ -143,71 +120,12 @@ header h1
         flex-direction: column;
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
-        overflow: hidden;
-    }
-
-
-.mouette
-{
     
-    margin-left: 50px;
-        border: 1px transparent black;
-        border-radius: 50px;
-        height: 320px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        box-shadow: #f2f2f2 1px 1px 1px;
-        overflow: hidden;
-
 }
 
-.mer
-{
-    
-    margin-left: 50px;
-        border: 1px transparent black;
-        border-radius: 50px;
-        height: 320px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        box-shadow: #f2f2f2 1px 1px 1px;
-        overflow: hidden;
-}
-
-.amina
-{
-    margin-left: 50px;
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    box-shadow: #f2f2f2 1px 1px 1px;
-    overflow: hidden;
-}
-
-.panier
-{
-    
-    margin-left: 50px;
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    box-shadow: #f2f2f2 1px 1px 1px;
-    overflow: hidden;
 
 
-}
+
 
 
 /* section 2 les plus populaires*/
@@ -223,9 +141,9 @@ header h1
     align-items: center;
     flex-direction: column;
     clear: right;
-    
+}
    
-}  
+
 
 .logopop
 {
@@ -249,44 +167,18 @@ header h1
 
 
 
-.soleil
+.align2
 {
     
     border: 1px transparent black;
     border-radius: 50px;
-    height: 320px;
-    width: 250px;
+    height: 170px;
+    width: 550px;
     display: flex;
     background-color: white;
     box-shadow: #f2f2f2 1px 1px 1px;
-    flex-direction: column;
+    overflow: hidden;
+   
 }
 
-.coeurdeau
-{   padding-top: 10px;
-    margin-left: 50px;
-    border: 1px transparent black;
-    border-radius: 50px;
-    height: 320px;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    box-shadow: #f2f2f2 1px 1px 1px;
-}
 
-.bleublan
-{
-     padding-top: 10px;
-        margin-left: 50px;
-        border: 1px transparent black;
-        border-radius: 50px;
-        height: 320px;
-    width: 250px;
-        display: flex;
-        background-color: white;
-        flex-direction: column;
-
-        box-shadow: #f2f2f2 1px 1px 1px;
-    
-}
