@@ -109,11 +109,40 @@ header h1
     margin-right: 5px;
 }
 
+/* informations avant premiere Section*/
 
+.logo2
+{
+    color: #0065fc;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.alignlogo
+{
+    display: flex;
+    align-items: center;
+   padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
 
 
 /* section 1 hebergement*/
 
+.titresection
+{
+    display: flex;
+    margin-left: 50px;
+ 
+}
 
 .align
 {
@@ -190,10 +219,8 @@ header h1
 .logopop
 {
     display: flex;
-    height: 16px;
-    width: 16px;
-
-    
+    justify-content: center;
+    align-items: center;
     
 }
 .titresection2
@@ -225,12 +252,7 @@ header h1
 
 /* activité*/ 
 
-#Activites h2
-{
- 
-    display: flex;
-    justify-content: center;
-}
+
 
 .boitegrand
 {
@@ -244,7 +266,19 @@ header h1
    
 }                                        
 
-.previewlarge
+.align3
+{display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% ;}
+
+#fortpomegues
+{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+}
+  
+  .previewlarge
 {
     height: 300px ;
     width: 250px;
@@ -285,13 +319,6 @@ header h1
     height: 150px;
     width: 280px;
    
-   
-}
-
-#frioul
-{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .boitegrand  p 
@@ -310,14 +337,7 @@ header h1
     margin-left: 20px;
 }
  
-.alignact
-{
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   flex-direction: column;
-   
-}
+
 
 /* FOOTER*/
 
