@@ -1,6 +1,6 @@
 @font-face 
 {
-    src: local(police/Raleway);
+    src:local(police/Raleway);
     font-family: "Raleway";
 }
  body
@@ -113,6 +113,8 @@ header h1
 
 
 /* section 1 hebergement*/
+
+
 .align
 {
     display: flex;
@@ -167,6 +169,8 @@ header h1
 
 
 /* section 2 les plus populaires*/
+
+
 #populaire
 {
     border:transparent 1px;
@@ -311,6 +315,7 @@ header h1
     display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   flex-direction: column;
    
 }
 
@@ -332,4 +337,11 @@ footer
 li
 {
     list-style: none;
+    
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
 }
