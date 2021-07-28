@@ -19,6 +19,24 @@
 {
     border: 1px solid black;
     border-radius: 50px;
+    height: 55px;
+    width: auto;
+    font-family: "Raleway";
+}
+
+.searchcb
+{
+    border: #deebff 1px solid;
+}
+#boutons
+{
+    border: black 1px solid;
+    border-radius: 50px;
+    background-color: #0065fc;
+    height: 55px;
+    width: auto;
+    color: #f2f2f2;
+    font-family: "Raleway";
 }
 
 .logohead
