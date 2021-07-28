@@ -1,5 +1,11 @@
 
 /*header*/
+.headtitre
+{
+    text-decoration: overline;
+    color: blue;
+}
+
 
 .logohead
 {
@@ -19,7 +25,6 @@
 header a
 {
     margin-right: 15px;
-    border: 2px solid blue;
     
 }
 
@@ -71,6 +76,15 @@ header h1
     margin-left: 5px;
     margin-right: 5px;
 }
+
+/*body*/
+
+body
+
+{
+
+}
+
 
 /* section 1 hebergement*/
 .align
@@ -179,10 +193,11 @@ header h1
 
 /* activité*/ 
 
-#Activites
+#Activites h2
 {
- display: flex;
-
+ 
+    display: flex;
+    justify-content: center;
 }
 
 .boitegrand
@@ -190,14 +205,15 @@ header h1
     border: 1px solid black;
     border-radius: 40px ;
     overflow: hidden;
-    height:550px ;
-    width:400px;
+    height:350px ;
+    width:250px;
+   
 }                                           /* redimensionner tout pour avoir resultat page modele*/
 
 .previewlarge
 {
     height: 300px ;
-    width: auto;
+    width: 250px;
 }
 
 .boitemoyens
@@ -206,17 +222,24 @@ header h1
     border-radius: 50px;
     overflow:hidden;
     height:150px;
-    width: 350px; 
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    width: 300px; 
+   
 }
 
 .previewmoyens
 {
-  height:80%;
-  width:50%;
+  height:100px;
+  width:300px;
   
+}
+
+.previewpetit
+{
+    
+        height:100px;
+        width:280px;
+        
+      
 }
 
 .boitepetite
@@ -225,19 +248,59 @@ header h1
     border-radius: 50px;
     overflow: hidden;
     height: 150px;
-    width: 250px;
+    width: 280px;
     
     
 }
 
+.boitegrand  p 
+{
+    margin-left: 20px;
+}
 
+.boitemoyens p 
+
+{
+    margin-left: 20px;
+}
+
+.boitepetite p 
+{
+    margin-left: 20px;
+}
 /* FOOTER*/
 
 footer
 {
+    
+    background-color: #f2f2f2;
+    border: 1px solid black;
+
+}
+
+#apropos
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#noshebergements
+{
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
-    background-color: #f2f2f2;
-    border: 1px solid black;}
+    
+}
+
+#assistance
+{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: flex-end;
+}
+
+li
+{
+    list-style: none;
+}
