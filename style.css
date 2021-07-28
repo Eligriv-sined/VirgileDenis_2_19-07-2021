@@ -1,3 +1,12 @@
+@font-face 
+{
+    src: local(police/Raleway);
+    font-family: "Raleway";
+}
+ body
+ {
+     font-family: "Raleway";
+ }
 
 /*header*/
 .headtitre
@@ -6,6 +15,11 @@
     color: blue;
 }
 
+#recherchehead
+{
+    border: 1px solid black;
+    border-radius: 50px;
+}
 
 .logohead
 {
@@ -77,13 +91,7 @@ header h1
     margin-right: 5px;
 }
 
-/*body*/
 
-body
-
-{
-
-}
 
 
 /* section 1 hebergement*/
@@ -116,7 +124,7 @@ body
     height:755px;
     width: 950px;
     float: left;
-    
+    margin-right: 180px;
 }
 
 .alingcont
@@ -132,6 +140,7 @@ body
         background-color: white;
         box-shadow: #f2f2f2 1px 1px 1px;
         overflow: hidden;
+        
 }
 
 
@@ -188,7 +197,8 @@ body
      background-color: white;
     box-shadow: #f2f2f2 1px 1px 1px;
     overflow: hidden;
-    
+    align-content: center;
+    margin-right: 50px;
 }
 
 /* activité*/ 
@@ -207,8 +217,10 @@ body
     overflow: hidden;
     height:350px ;
     width:250px;
+  
+    
    
-}                                           /* redimensionner tout pour avoir resultat page modele*/
+}                                        
 
 .previewlarge
 {
@@ -244,13 +256,20 @@ body
 
 .boitepetite
 {
+    
     border: 1px solid black;
     border-radius: 50px;
     overflow: hidden;
     height: 150px;
     width: 280px;
-    
-    
+   
+   
+}
+
+#frioul
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .boitegrand  p 
@@ -268,6 +287,15 @@ body
 {
     margin-left: 20px;
 }
+ 
+.alignact
+{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
 /* FOOTER*/
 
 footer
@@ -275,30 +303,13 @@ footer
     
     background-color: #f2f2f2;
     border: 1px solid black;
-
-}
-
-#apropos
-{
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-#noshebergements
-{
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    
+
 }
 
-#assistance
-{
-    display: flex;
-    justify-content: flex-end ;
-    align-items: flex-end;
-}
+
 
 li
 {
