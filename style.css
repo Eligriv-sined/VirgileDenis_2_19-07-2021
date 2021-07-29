@@ -8,6 +8,13 @@
      font-family: "Raleway";
  }
 
+ a :hover
+ {
+     background-color: aqua;
+     border: 1px solid  transparent;
+ }
+
+
 /*header*/
 .headtitre
 {
@@ -71,7 +78,7 @@ header h1
 {
     display: flex;
 }
-
+  
 
 .logo
 {
@@ -94,6 +101,12 @@ header h1
   justify-content: center;
   align-items: center;
   margin-right: 15px;
+}
+
+.bullelogo:hover
+{
+    background-color: aqua;
+     border: 1px solid  transparent;
 }
 
 .bulle
