@@ -262,20 +262,49 @@ header h1
     height:350px ;
     width:250px;
   
-    
-   
 }                                        
 
 .align3
-{display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% ;}
+{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 5% 5% 1fr;
+  
+}
 
+#vieuxport
+{
+    display :grid;
+    grid-column: 1;
+    grid-row: span 4;
+}
+ 
 #fortpomegues
 {
     display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#frioul
+{
+    display: grid;
+    grid-column: 2;
+    grid-row: span 2 ;
+}
+
+#calanques
+{
+    display :grid;
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 1/4;
+}
+
+#notredame
+{
+    display: grid;
+    grid-column: 4;
+    grid-row: 1;
 }
   
   .previewlarge
