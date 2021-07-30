@@ -1,3 +1,6 @@
+/* Body */
+
+
 @font-face 
 {
     src:local(police/Raleway);
@@ -18,9 +21,14 @@
 /*header*/
 .headtitre
 {
-    text-decoration: overline;
     color: blue;
 }
+
+.headtitre a
+{
+    text-decoration: none;
+}
+
 
 #recherchehead
 {
@@ -29,6 +37,7 @@
     height: 55px;
     width: auto;
     font-family: "Raleway";
+    font-weight: bold;
 }
 
 .searchcb
@@ -44,6 +53,8 @@
     width: auto;
     color: #f2f2f2;
     font-family: "Raleway";
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .logohead
@@ -183,10 +194,11 @@ header h1
     border:transparent 1px;
     border-radius: 30px;
     background-color: #f2f2f2;
-    height:755px;
-    width: 950px;
+    height:765px;
+    width: 955px;
     float: left;
     margin-right: 180px;
+    margin-bottom: 50px;
 }
 
 .alingcont
@@ -232,8 +244,10 @@ header h1
 .logopop
 {
     display: flex;
-    justify-content: center;
     align-items: center;
+    align-self: center;
+    justify-content: flex-end;
+    margin-left: 400px;
     
 }
 .titresection2
@@ -243,6 +257,7 @@ header h1
     margin-left: 50px;
     height: 50px;
     width: 600px;
+    margin-bottom: 50px;
        
 }
 
@@ -264,6 +279,7 @@ header h1
 }
 
 /* activité*/ 
+
 
 
 
