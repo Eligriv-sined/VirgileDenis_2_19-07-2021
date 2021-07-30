@@ -3,7 +3,7 @@
 
 @font-face 
 {
-    src:local(police/Raleway);
+    src:local(police/Raleway); /* pourquoi src marche pas en local  */
     font-family: "Raleway";
 }
  body
@@ -120,7 +120,7 @@ header h1
 .bullelogo:hover
 {
     background-color: aqua;
-     border: 1px solid  transparent;
+    border: 1px solid  transparent;
 }
 
 .bulle
@@ -156,7 +156,7 @@ header h1
 {
     display: flex;
     align-items: center;
-   padding-bottom: 25px;
+    padding-bottom: 25px;
     padding-top: 25px;
     
 }
@@ -223,10 +223,6 @@ header h1
 }
 
 
-
-
-
-
 /* section 2 les plus populaires*/
 
 
@@ -244,8 +240,6 @@ header h1
      
 }
    
-
-
 .logopop
 {
     display: flex;
@@ -266,8 +260,6 @@ header h1
        
 }
 
-
-
 .align2
 {
     
@@ -286,11 +278,11 @@ header h1
 
 /* activité*/ 
 
-
 .titreactivite
 {
     display: flex;
     justify-content: flex-start;
+   
 }
 
 .boitegrand
@@ -371,22 +363,17 @@ header h1
 
 .previewpetit
 {
-    
     height:100px;
     width:280px;
-        
-      
 }
 
 .boitepetite
 {
-    
     border: 1px solid black;
     border-radius: 50px;
     overflow: hidden;
     height: 150px;
-    width: 280px;
-   
+    width: 280px;  
 }
 
 .boitegrand  p 
@@ -405,8 +392,6 @@ header h1
     margin-left: 20px;
 }
  
-
-
 /* FOOTER*/
 
 footer
@@ -417,10 +402,7 @@ footer
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-
-
 
 li
 {
