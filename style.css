@@ -23,20 +23,38 @@
 }
 
 /*header*/
-.headtitre
+header
 {
-    color: blue;
+    font-family: "Raleway";
+}
+
+.p1
+{
+    font-weight: 300 ;
+}
+
+.h1
+{
+    font-weight: 500 ;
+}
+
+.headtitre a:hover
+{
+    text-decoration: overline;
+    color: black;
 }
 
 .headtitre a
 {
     text-decoration: none;
+    color: blue;
+    padding-top: 5px;
 }
 
 
 #recherchehead
 {
-    border: 1px solid black;
+    border: 1px transparent black;
     border-radius: 40px;
     height: 40px;
     width: auto;
@@ -47,20 +65,24 @@
 
 #boutons:hover
 {
-    background-color: #0065fc;  
+    background-color: #0065fc;
+     border: 1px solid  transparent;
 }
+
 #boutons            
 {
-   
+   background-color: #0065fc;
     height: 40px;
     width: auto;
     color: #f2f2f2;
     font-family: "Raleway";
     font-size: 0.9em;
-    font-weight: bold;
+    font-weight: bold ;
     padding-left: 15px;
     padding-right: 15px;
     cursor: pointer;
+    border-radius: 50px;
+    border: 1px transparent;
 }
 
 .logohead
@@ -278,6 +300,7 @@ header h1
 a
 {
     text-decoration: none;
+    color: black;
 }
 
 .align3
@@ -303,7 +326,8 @@ a
 .vieuxport p 
 {
     display: flex;
-    margin-left: 30px; 
+    margin-left: 15%; 
+   
     font-weight: 700;
 }
 
@@ -412,7 +436,7 @@ a
 
 footer
 {
-    
+    margin-top: 5%;
     background-color: #f2f2f2;
     border: 1px transparent black;
     display: flex;
