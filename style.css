@@ -28,6 +28,7 @@ header
     font-family: "Raleway";
 }
 
+
 .p1
 {
     font-weight: 300 ;
@@ -35,7 +36,7 @@ header
 
 .h1
 {
-    font-weight: 500 ;
+    font-weight: 900 ;
 }
 
 .headtitre a:hover
@@ -55,7 +56,7 @@ header
 #recherchehead
 {
     border: 1px transparent black;
-    border-radius: 40px;
+    border-radius: 30px;
     height: 40px;
     width: auto;
     font-family: "Raleway";
@@ -81,7 +82,7 @@ header
     padding-left: 15px;
     padding-right: 15px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 20px;
     border: 1px transparent;
 }
 
@@ -168,7 +169,7 @@ header h1
 .logo2
 {
     color: #0065fc;
-    border: 1px solid black;
+    border: 1px solid #deebff;
     border-radius: 50px;
     height: 25px;
     width: 25px;
@@ -198,6 +199,16 @@ header h1
     margin-left: 50px;
  
 }
+.align h3
+{
+    margin-left: 12%;
+}
+                                            /*texte et titre ausseins des bulles de la S1*/                
+.align p                                            
+{
+    margin-left: 12%;
+  
+}
 
 .align
 {
@@ -210,6 +221,7 @@ header h1
 .etoile
 {
     color:#0065fc;
+    margin-left: 12%;
 }
 
 .preview
@@ -279,7 +291,15 @@ header h1
     flex-direction: column;   
 }
    
+.align2 p  
+{
+    margin-left: 12%;
+}
 
+.align2 h3  
+{
+    margin-left: 12%;
+}
 
 
 .align2
@@ -316,7 +336,7 @@ a
   display: grid;
   grid-column: 1;
   grid-row: span 2;
-  border: 1px transparent black;
+  border: 1px solid #deebff;
   border-radius: 50px;
   overflow: hidden;
   height:500px;
@@ -347,7 +367,7 @@ a
     display: grid;
     grid-column: 2;
     grid-row: 1;
-    border: 1px transparent black;
+    border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
     height: 230px;
@@ -366,7 +386,7 @@ a
     display: grid;
     grid-column: 2;
     grid-row: 2;
-    border: 1px transparent black;
+    border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
     height: 230px;
@@ -379,7 +399,7 @@ a
     display: grid;
    grid-column: 3;
    grid-row: span 2;
-   border: 1px transparent black;
+   border: 1px solid #deebff;
    border-radius: 50px;
    overflow: hidden;
    height: 450px;
@@ -399,7 +419,7 @@ a
     display: grid;
     grid-column: 4;
     grid-row: 1;
-    border: 1px transparent black;
+    border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
     height: 230px;
@@ -419,7 +439,7 @@ a
     display: grid;
     grid-column: 4;
     grid-row: 2;
-    border: 1px transparent black;
+    border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
     height: 230px;
@@ -441,7 +461,7 @@ footer
     border: 1px transparent black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+  
 }
 
 li
@@ -460,9 +480,18 @@ li a
 
 /* responsive design*/
 
-@media screen and  (max-width: 500px){
+@media screen and  (max-width: 500px)
 
-.body{display:flex;flex-direction: column;}
+{
+
+.body
+
+{
+    
+    display:flex;
+    flex-direction: column;
+
+}
 
 }
     
