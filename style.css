@@ -13,16 +13,15 @@
 
  a :hover
  {
-     background-color: aqua;
+     background-color: #f2f2f2;
      border: 1px solid  transparent;
  }
 
 .main
 {
- display: flex;
- align-items: flex-end;
-
+ display:inline-block ;
 }
+
 /*header*/
 .headtitre
 {
@@ -48,7 +47,7 @@
 
 #boutons:hover
 {
-    background-color: #0065fc;  /*Passer curseur en main*/ 
+    background-color: #0065fc;  
 }
 #boutons            
 {
@@ -209,14 +208,14 @@ header h1
     float: left;
     margin-right: 180px;
     margin-bottom: 50px;
+    float: left;
 }
 
 .alingcont
 {
         padding-top: 1px;
         margin-left: 50px;
-        padding-left: 2px ;
-        border: 1px transparent black;
+        padding-left: 2px ;  
         border-radius: 50px;
         height: 310px;
         width: 250px;
@@ -228,10 +227,25 @@ header h1
         
 }
 
+.p2
+{
+    font-weight: 700;
+    margin-left: 20px;
+}
 
 /* section 2 les plus populaires*/
+.titresection2
+{
+    margin-left: 5%;
+    display: inline-block ;
+    
+}
 
-
+.logopop
+{
+    display: inline-block;
+    padding-left: 50%;
+}
 #populaire
 {
     display: flex;
@@ -243,17 +257,12 @@ header h1
     flex-direction: column;   
 }
    
-.logopop
-{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 400px;
-    
-}
+
 
 
 .align2
 {
+    
     border: 1px transparent black;
     border-radius: 50px;
     height: 150px;
@@ -261,12 +270,8 @@ header h1
     display: flex;
     background-color: white;
     overflow: hidden;
-    align-content: center;
-    margin-right: 50px;
+    margin-left: 10%;
     margin-top: 25px;
-    
-   
-   
 }
 
 /* activité*/ 
@@ -298,7 +303,8 @@ a
 .vieuxport p 
 {
     display: flex;
-    margin-left: 30px;
+    margin-left: 30px; 
+    font-weight: 700;
 }
 
 .fortpomegues p
@@ -306,7 +312,7 @@ a
     
         display: flex;
         margin-left: 30px;
-    
+        font-weight: 700;
 }
 #prev
 {
@@ -329,6 +335,7 @@ a
 {
     display: flex;
     margin-left: 30px;
+    font-weight: 700;
 }
 .frioul
 {
@@ -359,6 +366,7 @@ a
 {
     display: flex;
     margin-left: 30px;
+    font-weight: 700;
 }
 
 .notredame
@@ -379,6 +387,7 @@ a
 {
     display: flex;
     margin-left: 15px;
+    font-weight: 700;
 }
 
 .longchamp
@@ -393,7 +402,12 @@ a
     width: 340px;
     margin-left: 15%; 
 }
-
+.longchamp p
+{
+    display: flex;
+    margin-left: 15px;
+    font-weight: 700;
+}
 /* FOOTER*/
 
 footer
@@ -417,3 +431,14 @@ li a
     text-decoration: none;
     color: black;
 }
+
+
+
+/* responsive design*/
+
+@media screen and  (max-width: 500px){
+
+.body{display:flex;flex-direction: column;}
+
+}
+    
