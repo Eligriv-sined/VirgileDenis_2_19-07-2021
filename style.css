@@ -480,18 +480,51 @@ li a
 
 /* responsive design*/
 
-@media screen and  (max-width: 500px)
+@media all and (max-device-width: 800px) /* mobile uniquement*/
 
 {
 
-.body
-
-{
-    
-    display:flex;
-    flex-direction: column;
-
+    header 
+    {
+        flex-direction: column;
+        width: auto;
+    }
+ 
+    .filtresmenus
+    {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+   .bulle
+   {
+      flex-direction: column;
+      justify-content: flex-start; 
+      padding-right: 80%;
+      height: auto;
+      width: auto;
+   }
+   
+   .main
+   {
+       flex-direction: column;
+   }
+    #hebergements
+    {
+       height: auto;
+        width: auto;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: 50% ;
+        grid-template-rows: 25% 25% 25% ;
+        justify-content: center;
+    }
+    .align
+    {
+        flex-direction: column;
+        display: grid;
+        grid-column: 1;
+        grid-row: span 3;
+        margin-top: 2%;
+    }
 }
-
-}
-    
