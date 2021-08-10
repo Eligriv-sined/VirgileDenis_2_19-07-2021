@@ -49,7 +49,7 @@ header
 {
     text-decoration: none;
     color: blue;
-    padding-top: 5px;
+    padding-top: 1%;
 }
 
 
@@ -57,7 +57,7 @@ header
 {
     border: 1px transparent black;
     border-radius: 30px;
-    height: 40px;
+    height: 10%;
     width: auto;
     font-family: "Raleway";
     font-weight: bold;
@@ -201,12 +201,12 @@ header h1
 }
 .align h3
 {
-    margin-left: 12%;
+    margin: 1%;
 }
                                             /*texte et titre ausseins des bulles de la S1*/                
 .align p                                            
 {
-    margin-left: 12%;
+    margin: 1%;
   
 }
 
@@ -326,29 +326,32 @@ a
 .align3
 {
     display: grid;
-  grid-template-columns:20% 25% 15% 25% ;
-  grid-template-rows: 25% 25% ;
+  grid-template-columns:(4 , 1fr);
+  grid-template-rows: ( 2 , 1fr) ;
+  border-radius: 2%;
   
 }
 
 .vieuxport
 {
-  display: grid;
+  
   grid-column: 1;
-  grid-row: span 2;
+  grid-row:  span 2;
   border: 1px solid #deebff;
   border-radius: 50px;
   overflow: hidden;
-  height:500px;
-  width: 340px;
+  background-image: url(images/activites/small/vieuxport.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+
 }
 
 .vieuxport p 
 {
     display: flex;
     margin-left: 15%; 
-   
-    font-weight: 700;
+   font-weight: 700;
 }
 
 .fortpomegues p
@@ -364,15 +367,17 @@ a
 }
 .fortpomegues
 {
-    display: grid;
+   
     grid-column: 2;
     grid-row: 1;
     border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
-    height: 230px;
-    width: 340px;
     margin-left: 5%;
+    background-image: url(images/activites/small/fortpomegues.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
 
 }
 .frioul p
@@ -389,26 +394,34 @@ a
     border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
-    height: 230px;
-    width: 340px;
-    margin-left: 5%;
+     margin-left: 5%;
+     background-image: url(images/activites/small/frioul.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: auto;
+   
 }
 
 .calanques
 {
-    display: grid;
+    height: auto;
+        width: auto;
    grid-column: 3;
    grid-row: span 2;
    border: 1px solid #deebff;
    border-radius: 50px;
    overflow: hidden;
-   height: 450px;
-   width: 300px;
+    background-image: url(images/activites/small/calanques.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+  
+
 }
 
 .calanques p 
 {
-    display: flex;
+   
     margin-left: 30px;
     font-weight: 700;
 }
@@ -416,15 +429,18 @@ a
 .notredame
 
 {
-    display: grid;
+   
     grid-column: 4;
     grid-row: 1;
     border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
-    height: 230px;
-    width: 340px;
     margin-left: 15%;
+    background-image: url(images/activites/small/notredames.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+  
 }
  
 .notredame p 
@@ -436,15 +452,18 @@ a
 
 .longchamp
 {
-    display: grid;
+    
     grid-column: 4;
     grid-row: 2;
     border: 1px solid #deebff;
     border-radius: 50px;
     overflow: hidden;
-    height: 230px;
-    width: 340px;
     margin-left: 15%; 
+    background-image: url(images/activites/small/longchamp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+  
 }
 .longchamp p
 {
@@ -510,13 +529,17 @@ li a
    
    .main
    {
-       flex-direction: column;
+    display: flex;   
+    flex-direction: column-reverse;
    }
+  
+  
    /*bloc hebergement*/
-    #hebergements
+  
+   #hebergements
     {
       
-       height: auto;
+        height: auto;
         width: auto;
         flex-direction: column;
         display: grid;
@@ -538,7 +561,9 @@ li a
     height: auto;       
      
    }
-  /*bloc les plus populaires */ 
+  
+  
+   /*bloc les plus populaires */ 
    #populaire 
    {
      height: auto;
@@ -552,58 +577,52 @@ li a
        margin-left: 3%; 
        width: 75%;
    }
-  /*bloc activité*/
+
+
+   /*bloc activité*/
    #activités
    {
        flex-direction: column;
        height: auto;
        width: auto;
-       
+       order: -1;
        flex-direction: column;
        grid-template-columns: 100%;
        grid-template-rows: 16% 16% 16% 16% 16% 16%;
    }
 
   .vieuxport
-  {
-      
+  { 
       grid-column: 1;
       grid-row: 1;
   }
 
   .fortpomegues
   {
-     
-      grid-column: 1;
+     grid-column: 1;
      grid-row: 2;
     }
 
     .frioul
     {
-        
         grid-column: 1;
         grid-row: 3;
     }
 
     .calanques
     {
-       
         grid-column: 1;
         grid-row: 4;
-
     }
 
     .notredame
     {
-        
         grid-column: 1;
         grid-row: 5;
-
     }
 
     .longchamp
     {
-       
         grid-column: 1;
         grid-row: 6;
     }
@@ -613,7 +632,6 @@ li a
     footer
     {
         flex-direction: column;
-
     }
 
 }
