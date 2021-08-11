@@ -439,7 +439,8 @@ a
   grid-template-rows: 50% 50%  ;
   height: 25em;
   width: 80%;
-  grid-gap: 2% 2%;
+  grid-gap: 5% 2%;
+ 
 }
 
 .vieuxport
@@ -450,13 +451,15 @@ a
     background-image: url(images/activites/small/vieuxport.jpg);
     background-position: center;
     background-size: cover;
-    height: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-
-
+.texte
+{
+    align-self: flex-end;
+    background-color: white;
+}
 
 .fortpomegues
 
@@ -468,7 +471,6 @@ a
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
@@ -481,7 +483,8 @@ a
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-     box-shadow: 5px 5px 5px 1px #f2f2f2;
+
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .calanques
@@ -493,7 +496,7 @@ a
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    height: 100%;
+   
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
@@ -507,7 +510,6 @@ a
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    height: 75%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
@@ -520,7 +522,6 @@ a
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    height: 75%;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
@@ -551,7 +552,7 @@ li a
 
 
 
-                                /* responsive design*/
+                         /* responsive design*/
 
 @media all and (max-device-width: 800px) /* mobile uniquement*/
 
