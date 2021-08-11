@@ -217,41 +217,13 @@ header h1
 
 }
 
-
-.etoile
-{
-    color:#0065fc;
-    margin-left: 12%;
-}
-
-.preview
-{
-    height: 150px;
-    width: 250px;
-    
-}
-
-
-#hebergements
-{
-    border:transparent 1px;
-    border-radius: 30px;
-    background-color: #f2f2f2;
-    height:765px;
-    width: 955px;
-    float: left;
-    margin-right: 180px;
-    margin-bottom: 50px;
-    float: left;
-}
-
 .alingcont
 {
         padding-top: 1px;
         margin-left: 50px;
         padding-left: 2px ;  
         border-radius: 50px;
-        height: 310px;
+        height: 100%;
         width: 250px;
         display: flex;
         flex-direction: column;
@@ -260,7 +232,88 @@ header h1
         overflow: hidden;
         
 }
+.etoile
+{
+    color:#0065fc;
+    margin-left: 12%;
+}
 
+#hebergements
+{
+    
+    border:transparent 1px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    height:auto;
+    width: auto;
+    float: left;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.cannebieres
+{
+    background-image: url(images/small/cannebiere.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.port
+{
+    background-image: url(images/small/port.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mouettes
+{
+    background-image: url(images/small/mouettes.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mer
+{  
+    background-image: url(images/small/mer.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.panier
+{
+    background-image: url(images/small/panier.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.amina
+{
+    background-image: url(images/small/amina.jpg);
+    height: 120px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .p2
 {
     font-weight: 700;
@@ -286,19 +339,48 @@ header h1
     border:transparent 1px;
     border-radius: 30px;
     background-color: #f2f2f2;
-    height:755px;
-    width: 650px;
+    width: 30%;
+    height: 35%;
     flex-direction: column;   
 }
-   
+
+.soleil
+{
+    background-image: url(images/small/soleildumatin.jpg);  
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px 1px #f2f2f2;
+}
+
+.coeurdeau
+{
+    background-image: url(images/small/aucoueurdeleau.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bleublanc
+{
+    background-image: url(images/small/bleuetblanc.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
 .align2 p  
 {
-    margin-left: 12%;
+    margin-left: 1%;
 }
 
 .align2 h3  
 {
-    margin-left: 12%;
+    margin-left: 1%;
 }
 
 
@@ -307,8 +389,6 @@ header h1
     
     border: 1px transparent black;
     border-radius: 50px;
-    height: 150px;
-    width: 500px;
     display: flex;
     background-color: white;
     overflow: hidden;
@@ -317,6 +397,8 @@ header h1
 }
 
 /* activité*/ 
+
+
 a
 {
     text-decoration: none;
@@ -325,152 +407,102 @@ a
 
 .align3
 {
-    display: grid;
-  grid-template-columns:(4 , 1fr);
-  grid-template-rows: ( 2 , 1fr) ;
-  border-radius: 2%;
-  
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%;
+  grid-template-rows: 50% 50%  ;
+  height: 25em;
+  width: 80%;
+ 
+  grid-gap: 2% 2%;
 }
 
 .vieuxport
 {
-  
-  grid-column: 1;
-  grid-row:  span 2;
-  border: 1px solid #deebff;
-  border-radius: 50px;
-  overflow: hidden;
-  background-image: url(images/activites/small/vieuxport.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-clip: border-box;
-
+    display: grid;
+    grid-column: 1;
+    grid-row: span 2 ;
+    background-image: url(images/activites/small/vieuxport.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-.vieuxport p 
+.vieuxport p
 {
-    display: flex;
-    margin-left: 15%; 
-   font-weight: 700;
+  display: flex;
+  justify-content: last-baseline; 
 }
 
-.fortpomegues p
-{
-    
-        display: flex;
-        margin-left: 30px;
-        font-weight: 700;
-}
-#prev
-{
-    width:340px ;
-}
 .fortpomegues
+
 {
-   
+    display: grid;
     grid-column: 2;
-    grid-row: 1;
-    border: 1px solid #deebff;
-    border-radius: 50px;
-    overflow: hidden;
-    margin-left: 5%;
+    grid-row: 1 ;
     background-image: url(images/activites/small/fortpomegues.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 75%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-.frioul p
-{
-    display: flex;
-    margin-left: 30px;
-    font-weight: 700;
-}
+
 .frioul
 {
     display: grid;
     grid-column: 2;
-    grid-row: 2;
-    border: 1px solid #deebff;
-    border-radius: 50px;
-    overflow: hidden;
-     margin-left: 5%;
-     background-image: url(images/activites/small/frioul.jpg);
-     background-size: contain;
-     background-repeat: no-repeat;
-     height: auto;
-   
+    grid-row: 2 ;
+    background-image: url(images/activites/small/frioul.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 50%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .calanques
 {
-    height: auto;
-        width: auto;
-   grid-column: 3;
-   grid-row: span 2;
-   border: 1px solid #deebff;
-   border-radius: 50px;
-   overflow: hidden;
+    display: grid;
+    grid-column: 3;
+    grid-row: span 2 ;
     background-image: url(images/activites/small/calanques.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: auto;
-  
-
-}
-
-.calanques p 
-{
-   
-    margin-left: 30px;
-    font-weight: 700;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 100%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .notredame
 
 {
-   
-    grid-column: 4;
-    grid-row: 1;
-    border: 1px solid #deebff;
-    border-radius: 50px;
-    overflow: hidden;
-    margin-left: 15%;
+    display: grid;
+    grid-column:4;
+    grid-row: 1 ;
     background-image: url(images/activites/small/notredames.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: auto;
-  
-}
- 
-.notredame p 
-{
-    display: flex;
-    margin-left: 15px;
-    font-weight: 700;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 75%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
 .longchamp
 {
-    
-    grid-column: 4;
-    grid-row: 2;
-    border: 1px solid #deebff;
-    border-radius: 50px;
-    overflow: hidden;
-    margin-left: 15%; 
+    display: grid;
+    grid-column:4;
+    grid-row: 2 ;
     background-image: url(images/activites/small/longchamp.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: auto;
-  
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 75%;
+    box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
-.longchamp p
-{
-    display: flex;
-    margin-left: 15px;
-    font-weight: 700;
-}
+
+
 /* FOOTER*/
 
 footer
