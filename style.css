@@ -25,13 +25,14 @@ body
 .main
 
 {
-         display:inline-block ;
+         display: flex;
+         width: 100%;
 }
 
 .etoile
 {
     color:#0065fc;
-    margin-left: 12%;
+    margin-left: 2%;
 }
 
 
@@ -268,6 +269,9 @@ header h1
     height:auto;
     width: auto; 
     margin-bottom: 2%;
+    width: 50%;
+    margin-right: 10%;
+
     
 }
 
@@ -360,13 +364,15 @@ header h1
                                   /* bloc populaire*/
 #populaire
 {
-    display: flex;
+    
+   
+    
     border:transparent 1px;
     border-radius: 30px;
     background-color: #f2f2f2;
-    width: 40%;
-    height: 35%;
-    flex-direction: column;   
+    width: 25%;
+    flex-direction: column;      
+    float: right;
 }
 
 .soleil
@@ -417,6 +423,10 @@ header h1
     display: flex;
     background-color: white;
     overflow: hidden;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 2%;
