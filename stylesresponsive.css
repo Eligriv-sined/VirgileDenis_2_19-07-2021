@@ -14,20 +14,11 @@
                           
                              .filtresmenus
                              {
-                                
-                                 flex-direction: column;
                                  width: auto;
                                  height: auto;
-                                 grid-template-columns: 50% ;
-                                 grid-template-rows: 25% 25% 25% 25% ;
+                                 
                              }
-                            .bulle
-                            {
-                              flex-direction: column;
-                               height: auto;
-                               width: auto;
-                               
-                            }
+                            
                             
                             .main
                             {
@@ -42,19 +33,15 @@
                              {
                                
                                  height: auto;
-                                 width: auto;
+                                 width: 50%;
                                  flex-direction: column;
                                  display: grid;
-                                 grid-template-columns: 50% ;
-                                 grid-template-rows: 25% 25% 25% ;
                                  justify-content: center;
                              }
                              .align
                              {
                                  flex-direction: column;
-                                 display: grid;
-                                 grid-column: 1;
-                                 grid-row: span 3;
+                                width: auto;
                                  
                              }
                             .alingcont
@@ -69,71 +56,65 @@
                             #populaire 
                             {
                               height: auto;
-                              width: 70%;
+                              width: 50%;
+                              display: flex;
+                              flex-direction: column;
+                              
                             }
                          
-                            .align2
-                            {
-                                flex-direction: column;
-                                height: auto;
-                                margin-left: 3%; 
-                                width: 75%;
-                            }
-                         
-                         
-                                                             /*bloc activité*/
+                            
                             #activités
                             {
-                                flex-direction: column;
-                                height: auto;
-                                width: auto;
-                                order: -1;
-                                flex-direction: column;
-                                grid-template-columns: 100%;
-                                grid-template-rows: 16% 16% 16% 16% 16% 16%;
+                                width: 50%;
                             }
-                         
-                           .vieuxport
-                           { 
-                               grid-column: 1;
-                               grid-row: 1;
-                           }
-                         
-                           .fortpomegues
-                           {
-                              grid-column: 1;
-                              grid-row: 2;
-                             }
-                         
-                             .frioul
-                             {
-                                 grid-column: 1;
-                                 grid-row: 3;
-                             }
-                         
-                             .calanques
-                             {
-                                 grid-column: 1;
-                                 grid-row: 4;
-                             }
-                         
-                             .notredame
-                             {
-                                 grid-column: 1;
-                                 grid-row: 5;
-                             }
-                         
-                             .longchamp
-                             {
-                                 grid-column: 1;
-                                 grid-row: 6;
-                             }
-                         
-                             /*footer*/
-                             
+                            .align3
+                            {
+                                grid-template-columns: 50%;
+                                grid-template-rows: 50% 50% 50% 50% 50% 50%;
+                            }
+                            
+                            .vieuxport
+                            {
+                                grid-column: 1;
+                                grid-row: 1;
+                                
+                                
+                            }
+                            
+                            .fortpomegues
+                            {
+                                grid-column: 1;
+                                grid-row: 2;
+                            }
+                            
+                            .frioul
+                            {
+                                grid-column: 1;
+                                grid-row: 3;
+                            }
+
+                            .calanques
+                        {
+                            grid-column: 1;
+                            grid-row: 4;
+                        }
+
+                        .notredame
+                        {
+                            grid-column: 1;
+                                grid-row: 5;
+                        }
+                         .longchamp
+                         {
+                            grid-column: 1;
+                            grid-row: 6;
+                         }
+
+
                              footer
                              {
-                                 flex-direction: column;
+                                padding-top: 5%;
+                                flex-direction: column;
                              }
                          
                          }
