@@ -168,7 +168,11 @@ header h1
 
 .filtresmenus
 {
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: small;
     display: flex;
+    
 }
   
 
@@ -176,8 +180,8 @@ header h1
 {
     color: #0065fc;
     border-radius: 52px;
-    height: 52px;
-    width: 52px;
+    height: 3.25em;
+    width: 3.25em;
     background-color: #deebff;
     text-align: center;
     display: flex;
@@ -193,8 +197,9 @@ header h1
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 15px;
   cursor: pointer;
+  margin-left: 1%;
+  
 }
 
 .bullelogo:hover
@@ -208,12 +213,15 @@ header h1
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 2%;
+    
+    
 }
 
 .textico
 {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
                             /* informations avant premiere Section*/
@@ -223,8 +231,8 @@ header h1
     color: #0065fc;
     border: 1px solid #deebff;
     border-radius: 50px;
-    height: 25px;
-    width: 25px;
+    height: 1.5625em;
+    width: 1.5625em;
     text-align: center;
     display: flex;
     justify-content: center;
