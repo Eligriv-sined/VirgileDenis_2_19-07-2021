@@ -67,10 +67,8 @@ header
     color: #0065fc;
 }
 
-.liens1, .liens2, .liens3:hover
-{
-    text-decoration: overline;
-}
+
+
 .headtitre a
 {
     text-decoration: none;
@@ -82,10 +80,10 @@ header
 
   .logohead
 { 
-    display: flex;
-    width: 100px;
-    height: 50px;
+    width: 6.5em;
+    height: 3.125em;
     padding-top:3%;
+    float: left;
     
 
 }
@@ -95,17 +93,30 @@ header
  display: flex;
  justify-content: flex-end;
  align-items: center;
+ padding-top: 4.5%;
+ 
 
 }
 
+.liens1:hover
+{
+    text-decoration: overline;
+}
+.liens2:hover
+{
+    text-decoration: overline;
+}
+.lien3:hover
+{
+    text-decoration: overline;
+}
+
+
 .liens1
 {
-  display: flex;
-   align-items: center;
+ 
   margin-right: 5%;
-  height: 5em;
   
-   
 }
 .liens3
 {
@@ -336,7 +347,7 @@ header
     margin-bottom: 2%;
     width: 50%;
     margin-right: 10%;
-   
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
     
 }
 
@@ -349,7 +360,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
 }
 
 .port
@@ -361,7 +372,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
 }
 
 .mouettes
@@ -373,7 +384,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
 
 }
 
@@ -386,7 +397,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
     
 }
 
@@ -400,7 +411,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
 }
 
 .amina
@@ -412,7 +423,7 @@ header
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 1% 3% 3% 1% #f2f2f2;
 }
 .p2
 {
@@ -425,6 +436,7 @@ header
 .titresection2
 {
     margin-left: 5%;  
+    
 }
 
 .logopop
@@ -437,12 +449,11 @@ header
 #populaire
 {
     border:transparent 1px;
-    border-radius: 30px;
+    border-radius: 8%;
     background-color: #f2f2f2;
     width: 35%;
     flex-direction: column;      
- 
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 3% 3% 3% 3% #f2f2f2;
 }
 
 .soleil
@@ -452,8 +463,8 @@ header
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
-    border-radius: 30 30 30 0;
+    box-shadow: 3% 3% 3% 3% #f2f2f2;
+    border-radius:20% 0% 0% 0%;
 }
 
 .coeurdeau
@@ -463,8 +474,8 @@ header
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 30 30 30 0;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius:20% 0% 0% 0%;
+    box-shadow: 3% 3% 3% 3% #f2f2f2;
 }
 
 .bleublanc
@@ -474,8 +485,8 @@ header
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 30 30 30 0;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    border-radius:20% 0% 0% 0%;
+    box-shadow: 3% 3% 3% 3% #f2f2f2;
 
 }
 
