@@ -40,6 +40,17 @@ main
     flex-shrink: 0;
     margin-top: 1em;
 }
+.etoilepop
+{
+    color:#0065fc;
+    margin-left: 2%;
+}
+
+.etoilepopeau
+{
+    color:#0065fc;
+    margin-left: 2%;
+}
 
 .etoile
 {
@@ -55,16 +66,12 @@ main
 	color: black;
 }
 
-.p1
-{
-    font-weight: 300 ;
-   
-}
+
 
 .h1
 {
     padding-top: 1%;
-    font-size: x-large;
+    font-size: 600;
     font-family: "Raleway-bold";
 
 }
@@ -82,8 +89,13 @@ main
     text-decoration: none;
     color: blue;
     padding-top: 1%;
+    
 }
 
+.headtitre
+{
+    height: 100%;
+}
 
 
   .logohead
@@ -124,6 +136,7 @@ main
 {
  
   margin-right: 5%;
+  
   
 }   /*agrandir hauteur des span*/ 
 
@@ -200,9 +213,9 @@ main
 
 .filtresmenus
 {
-    padding-top: 2%;
+    width: 100%;
+    padding-top: 1%;
     font-weight: bold;
-    font-size: small;
     display: flex;
     font-family: "Raleway-bold";
     
@@ -212,9 +225,9 @@ main
 .logo
 {
     color: #0065fc;
-    border-radius: 52px;
-    height: 3.25em;
-    width: 3.25em;
+    border-radius: 50px;
+    height: 3.50em;
+    width:  3.85em;
     background-color: #deebff;
     display: flex;
     justify-content: center;
@@ -224,18 +237,18 @@ main
 
 .bullelogo
 {
-  flex: 1;
-  border: solid 1px #deebff;
+
+  border: solid 1px red;
   border-radius: 50px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  margin-left: 5%;
-  white-space: nowrap;
   align-content: center;
-
+  
 }
-                               /*modifier taille familial*/
+
+
+                            
 .bullelogo:hover
 {
     background-color: #deebff;
@@ -246,7 +259,7 @@ main
 {
     display: flex;
     margin-left: 2%;
-    width: 50%;
+    width: 45%;
     
 }
 
@@ -294,10 +307,7 @@ main
     margin-top: 5%;
 }
 
-.align h3
-{
-    
-}
+
                                                       
 .align p                                            
 {
@@ -444,12 +454,7 @@ main
     
 }
 
-.logopop
-{
-    
-    
-}
-                                  /* bloc populaire*/
+                              /* bloc populaire*/
 #populaire
 {
     
@@ -478,7 +483,7 @@ font-family: "Raleway-bold";
 .coeurdeau
 {
     background-image: url(images/small/aucoueurdeleau.jpg);
-    width: 75%;
+    width: 50%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
