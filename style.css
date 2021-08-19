@@ -23,6 +23,12 @@ body
     
    
  }
+ a                                        
+ {
+     text-decoration: none;
+     color: black;
+ }
+ 
 
  a :hover
 
@@ -37,7 +43,7 @@ main
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: 0;
+    flex-shrink: 1;
     margin-top: 1em;
 }
 .etoilepop
@@ -218,7 +224,7 @@ main
     font-weight: bold;
     display: flex;
     font-family: "Raleway-bold";
-    flex-wrap: nowrap;
+    
     
 }
   .bulle4
@@ -469,20 +475,15 @@ main
     width: 30%;
     flex-direction: column;      
     box-shadow: 3% 3% 3% 3% #f2f2f2;
+    
 }
 #populaire h3
 {
-  width: 50%;
-   display: flex;  
-font-family: "Raleway-bold";
+ font-family: "Raleway-bold";
 }
-.logopop
-{
-    width: 50%;
- display: flex;
- 
- align-self: flex-end;
-}
+
+
+
 .soleil
 {
     background-image: url(images/small/soleildumatin.jpg);  
@@ -520,6 +521,7 @@ font-family: "Raleway-bold";
 .align2 p  
 {
     margin-left: 2%;
+
 }
 
 .align2 h3  
@@ -559,14 +561,7 @@ font-family: "Raleway-bold";
 #activités
 {
     width: 100%;
-    flex-wrap: wrap;
   
-}
-
-a                                        
-{
-    text-decoration: none;
-    color: black;
 }
 
 .transform:hover
