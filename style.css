@@ -223,8 +223,7 @@ main
 }
   .bulle4
   {
-      
-      width: 16%;
+      width: 16%;  /*<-- modif necessaire*/
   }
 
 .logo
@@ -682,7 +681,10 @@ footer
     justify-content: space-around;
   
 }
-
+footer h3
+{
+    font-family:'raleway-bold';
+}
 li
 {
     list-style: none;
