@@ -103,8 +103,6 @@ main
     width: 6.5em;
     height: 3.125em;
     padding-top:3%;
-    float: left;
-    
 
 }
 
@@ -113,8 +111,10 @@ main
  display: flex;
  justify-content: flex-end;
  align-items: center;
- padding-top: 4.5%;
- 
+ padding-top: 0.5%;
+ position:absolute;
+ right: 0;
+ top:0;
 
 }
 
@@ -218,9 +218,14 @@ main
     font-weight: bold;
     display: flex;
     font-family: "Raleway-bold";
+    flex-wrap: nowrap;
     
 }
-  
+  .bulle4
+  {
+      
+      width: 16%;
+  }
 
 .logo
 {
@@ -238,7 +243,7 @@ main
 .bullelogo
 {
 
-  border: solid 1px red;
+  border: solid 1px #deebff;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -259,15 +264,16 @@ main
 {
     display: flex;
     margin-left: 2%;
-    width: 45%;
-    
+    width: 100%;
+
 }
 
 .textico
 {
+   
     margin-left: 2%;
     margin-right: 2%;
-    
+   
 }
 
                             /* informations avant premiere Section*/
@@ -467,7 +473,16 @@ main
 }
 #populaire h3
 {
+  width: 50%;
+   display: flex;  
 font-family: "Raleway-bold";
+}
+.logopop
+{
+    width: 50%;
+ display: flex;
+ 
+ align-self: flex-end;
 }
 .soleil
 {

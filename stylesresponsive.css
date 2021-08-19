@@ -5,17 +5,13 @@
 
                          {
                                                           /*header*/
-                                                          .h1
-                                                          {
-                                                              padding-top: 1%;
-                                                              font-size: 750;
-                                                              font-family: "Raleway-bold";}
-                            body
-                            {
-                                width: 100%;
-                            }                            
+                             .h1
+                             {
+                                padding-top: 1%;
+                                font-size: 750;
+                                font-family: "Raleway-bold";
+                            }          
                              
-                            
                             header 
                              {
                                 display: flex; 
@@ -49,38 +45,50 @@
                              {
                                  grid-column: 2;
                                  grid-row: 1;
-                            
                             }
                              .bulle4
                              {
                                 grid-column: 1;
                                 grid-row: 3;
-                            
+                                width: 100%;
                              }
-                                                     
-                          .liens1
+                            
+                            .liens1
+                            {      
+                                padding-top: 25%;
+                                padding-right: 35%; 
+                            }
+                            .liens2
+                            {      
+                                padding-top: 25%;
+                                padding-right: 20%;  
+                            }
+                       
+                       
+                          .liens1:hover
                           {
-                              padding-top: 10%;
-                              padding-right: 10%;
-                              
+                              text-decoration: underline;
                           }
-                          .liens2
+                          .liens2:hover
                           {
-                              padding-top: 10%;
-                              padding-right: 40%;
-                              
+                              text-decoration: underline;
                           }
-                             
+                          .lien3:hover
+                          {
+                              text-decoration: underline;
+                          }
 
                                                 /*body*/
                             main
                             {
                              display: flex;   
                             justify-content: center;
-                            
-                        
                             }
-                                    
+                                
+                            body
+                            {
+                                width: 100%;
+                            }                        
                            
                                     /*hebergements*/
                             #hebergements
@@ -136,7 +144,10 @@
                            
 
                            /*populaires*/
-                            #populaire 
+                            
+                           
+                           
+                           #populaire 
                             {
                               height: 100%;
                               width: 90%;
@@ -148,12 +159,12 @@
                             }
                             .etoilepopeau
                             {
-                                padding-top: 35%;
+                                padding-top: 20%;
                             }
                             .etoilepop
                             {
                                 color:#0065fc;
-                                padding-top: 50%;
+                                padding-top: 30%;
                                 margin-left: 2%;
                             }
 
@@ -163,7 +174,12 @@
                                height: 15em;
                               
                             }
-                                /*activité*/ 
+                           
+                           
+                            /*activité*/ 
+                            
+                            
+                            
                             #activités
                             {
                                display: flex;
@@ -228,6 +244,8 @@
 
 
                            /*footer*/
+                          
+                          
                            footer
                              {
                                
