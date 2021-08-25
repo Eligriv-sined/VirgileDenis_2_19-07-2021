@@ -18,11 +18,9 @@ body
  
  {
       font-family: "Raleway";
-      padding-left: 2%;
-    padding-right: 2%;
-    
-   
+      width: 100%;
  }
+
  a                                        
  {
      text-decoration: none;
@@ -43,7 +41,6 @@ main
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: 1;
     margin-top: 1em;
 }
 .etoilepop
@@ -101,6 +98,9 @@ main
 .headtitre
 {
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -108,69 +108,46 @@ main
 { 
     width: 6.5em;
     height: 3.125em;
-    padding-top:3%;
-
 }
 
 #liens
 {   
  display: flex;
  justify-content: flex-end;
- align-items: center;
- padding-top: 0.5%;
- position:absolute;
- right: 0;
- top:0;
+ width: 30%;
+ padding-right: 2em;
+ justify-content: space-between;
 
 }
 
-.liens1:hover
+nav
 {
-    text-decoration: overline;
+    height: 5em;  
+    display: flex;
+    
 }
-.liens2:hover
-{
-    text-decoration: overline;
-}
-.lien3:hover
-{
-    text-decoration: overline;
-}
-
-
-.liens1
-{
- 
-  margin-right: 5%;
-  
-  
-}   /*agrandir hauteur des span*/ 
 
 .liens3
 {
     margin-left: 5%;
   
 }
-
-
-
-
-
                                             /*recherche barre*/
 
 #recherchebarre
 {
-    height: 2.5em;
-   width: 25em;
+    height: 3em;
+   width: 20%;
    font-size: 1em ;
    display: flex;
    align-items: center;  
+   justify-content: center;
 }
 
-#recherchetexte
+#recherchetexte                 
 {
-    height: 2.5em;
-    width: 14.375em;
+    height: 3em;
+    width: 70%;
     font-size: 1em ;
     color: black;
     font-weight: bold;
@@ -181,8 +158,8 @@ main
 
 #logorecherche
 {
-    height: 2.5em;
-    width: 3.125em;
+    height: 3em;
+    width: 10%;
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
@@ -195,7 +172,6 @@ main
 #boutonsrecherche:hover
 {
     background-color: #0065fc;
-
 }
 
 #boutonsrecherche          
@@ -210,7 +186,10 @@ main
   font-size: 1em ;
 }
 
-
+#loupe
+{
+    display: none;
+}
 
 
 
@@ -224,6 +203,8 @@ main
     font-weight: bold;
     display: flex;
     font-family: "Raleway-bold";
+    align-items: center;
+    
     
     
 }
@@ -248,13 +229,14 @@ main
 .bullelogo
 {
 
-  border: solid 1px #deebff;
+  border: solid 5px #f2f2f2;
   border-radius: 50px;
   display: flex;
   align-items: center;
   cursor: pointer;
   align-content: center;
-  
+  padding-right:1%;
+  margin-right: 2%;
 }
 
 
@@ -270,15 +252,11 @@ main
     display: flex;
     margin-left: 2%;
     width: 100%;
-
 }
 
 .textico
 {
-   
-    margin-left: 2%;
-    margin-right: 2%;
-   
+    margin-left: 5%;
 }
 
                             /* informations avant premiere Section*/
@@ -375,7 +353,7 @@ main
     background-color: #f2f2f2;
     margin-bottom: 2%;
     margin-right: 3%;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
     
 }
 #hebergements h3
@@ -390,7 +368,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
 }
 
 .port
@@ -401,7 +379,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
 }
 
 .mouettes
@@ -412,7 +390,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
 
 }
 
@@ -424,7 +402,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
     
 }
 
@@ -437,7 +415,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
 }
 
 .amina
@@ -448,7 +426,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1% 3% 3% 1% #f2f2f2;
+    box-shadow: 1% 3% 3% 1% grey;
 }
 .p2
 {
@@ -474,8 +452,9 @@ main
     background-color: #f2f2f2;
     width: 30%;
     flex-direction: column;      
-    box-shadow: 3% 3% 3% 3% #f2f2f2;
+    box-shadow: 3% 3% 3% 3% grey;
     
+   
 }
 #populaire h3
 {
@@ -487,35 +466,37 @@ main
 .soleil
 {
     background-image: url(images/small/soleildumatin.jpg);  
-    width: 50%;
+    width: 20em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 3% 3% 3% 3% #f2f2f2;
-    border-radius:20% 0% 0% 0%;
+    box-shadow: 3% 3% 3% 3% grey;
+    border-radius:40px 0px 0px 40px;
+    
 }
 
 .coeurdeau
 {
     background-image: url(images/small/aucoueurdeleau.jpg);
-    width: 50%;
+    width: 20em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius:20% 0% 0% 0%;
-    box-shadow: 3% 3% 3% 3% #f2f2f2;
+    border-radius:40px 0px 0px 40px;
+    box-shadow: 3% 3% 3% 3% grey;
+   
 }
 
 .bleublanc
 {
     background-image: url(images/small/bleuetblanc.jpg);
-    width: 50%;
+    width: 20em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius:20% 0% 0% 0%;
-    box-shadow: 3% 3% 3% 3% #f2f2f2;
-
+    border-radius:40px 0px 0px 40px;
+    box-shadow: 3% 3% 3% 3% grey;
+   
 }
 
 .align2 p  
@@ -545,10 +526,9 @@ main
     padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-right:10%;
-    margin-left: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top:5%;
+    margin-bottom: 5%;
+   
 }
 
                                         /* activité*/ 
@@ -560,8 +540,8 @@ main
 
 #activités
 {
-    width: 100%;
-  
+    width: 99%;
+    
 }
 
 .transform:hover
@@ -571,8 +551,8 @@ main
 .align3
 {
   display: grid;
-  grid-template-columns:25% 25% 25% 25%;
-  grid-template-rows: 50% 50%  ;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2 , 1fr) ;
   height: 25em;
   width:100%;
   grid-gap: 5% 2%;
@@ -588,7 +568,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 .texte
@@ -610,7 +590,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 .frioul
@@ -622,7 +602,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
     
 }
 
@@ -635,8 +615,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-   
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 .notredame
@@ -649,7 +628,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 .longchamp
@@ -661,7 +640,7 @@ main
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 1px #f2f2f2;
+    box-shadow: 5px 5px 5px 1px grey;
 }
 
 
@@ -682,8 +661,8 @@ footer h3
 }
 li
 {
-    list-style: none;
-    
+    margin-top: 1em;
+    list-style: none; 
 }
 
 li a
@@ -692,4 +671,7 @@ li a
     color: black;
 }
 
-
+ul
+{
+    padding:0;
+}
