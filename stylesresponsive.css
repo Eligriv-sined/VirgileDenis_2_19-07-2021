@@ -5,7 +5,47 @@
 
                          {
                                                           /*header*/
-                             .h1
+                          .headtitre
+                          {
+                              width: 100%;
+                              border-bottom: solid 1px grey;
+                              font-size: x-large;
+                             
+                          }
+                          #liens
+                          {
+                              width: 100%;
+                          }
+                            
+                          #liens1
+                          {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                              width: 100%;
+                          }
+                          #liens2
+                          {
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                          }
+                            
+                           #liens1:hover
+                           {
+                                border-bottom: 1px solid blue;
+                                border-top: none;
+                                width: 100%;
+                           }
+                           #liens2:hover
+                           {
+                                border-bottom: 1px solid blue;
+                                border-top: none;
+                                width: 100%;
+                           }
+
+                            
+                              .h1
                              {
                                 padding-top: 1%;
                                 font-size: 2.7em;
@@ -81,18 +121,7 @@
                             }
                        
                        
-                          .liens1:hover
-                          {
-                              text-decoration: underline;
-                          }
-                          .liens2:hover
-                          {
-                              text-decoration: underline;
-                          }
-                          .lien3:hover
-                          {
-                              text-decoration: underline;
-                          }
+                    
 
                           .alignlogo
                           {

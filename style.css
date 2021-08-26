@@ -114,24 +114,21 @@ main
 {   
  display: flex;
  justify-content: flex-end;
- width: 30%;
+ width: 45%;
+ height: 5em;
  padding-right: 2em;
- justify-content: space-between;
-
+ justify-content: space-around;
 }
 
-nav
+#liens1:hover
 {
-    height: 5em;  
-    display: flex;
-    
+    border-top: 1px solid blue;
+}
+#liens2:hover
+{
+    border-top: 1px solid blue;
 }
 
-.liens3
-{
-    margin-left: 5%;
-  
-}
                                             /*recherche barre*/
 
 #recherchebarre
@@ -436,12 +433,27 @@ nav
 
                             /* section 2 les plus populaires*/
                             
-.titresection2
-{
-    margin-left: 5%;  
+     .titresection2
+ {  
     font-family: "Raleway-bold";
-    
+    font-weight: bold;
+    grid-template-rows: 1fr 1fr ;
+   grid-template-columns: 1fr;
+   margin-left: 2%;
+   margin-top: 10%;
+   
+}                          
+ 
+                            
+ #logopop
+                            
+ {                             
+    grid-column: 1;                         
+    grid-row: 2;                           
+    margin-left: 40%;                                         
 }
+ 
+
 
                               /* bloc populaire*/
 #populaire
@@ -466,7 +478,7 @@ nav
 .soleil
 {
     background-image: url(images/small/soleildumatin.jpg);  
-    width: 20em;
+    width: 15em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -526,9 +538,10 @@ nav
     padding-right: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-top:5%;
+    margin-top:10%;
     margin-bottom: 5%;
-   
+    margin-left: 2%;
+    margin-right: 2%;  
 }
 
                                         /* activité*/ 
