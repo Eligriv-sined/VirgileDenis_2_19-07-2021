@@ -103,7 +103,7 @@ main
 #liens
 {
   height: 3.125em;
-  padding-left: 70%;
+  padding-left: 60%;
   display: flex;
   width: 100%;
   margin-right: 2%;
@@ -349,7 +349,7 @@ main
         display: flex;
         flex-direction: column;
         background-color: white;
-        box-shadow: 5px 5px 5px 1px #f2f2f2;
+        box-shadow:5px 5px 5px 1px #f2f2f2; 
         overflow: hidden;
         
 }
@@ -366,12 +366,13 @@ main
     background-color: #f2f2f2;
     margin-bottom: 2%;
     margin-right: 3%;
-    box-shadow: 1px 3px 3px 1px grey;
+    box-shadow:5px 5px 5px 1px #f2f2f2; 
     
 }
 #hebergements h3
 {
     font-family: "Raleway-bold";
+    margin:1%;
 }
 .cannebieres
 {
@@ -381,7 +382,6 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
 }
 
 .port
@@ -392,7 +392,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
+   
 }
 
 .mouettes
@@ -403,8 +403,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
-
+    
 }
 
 .mer
@@ -415,8 +414,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
-    
+  
 }
 
 
@@ -428,7 +426,7 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
+    
 }
 .amina
 {
@@ -438,34 +436,31 @@ main
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 1px grey;
+    
 }
 .p2
 {
-    font-weight: 700;
-    margin-left: 2%;
+   font-size: large;
+   font-weight: bold;
+    margin-left: 1%;
 }
 
                             /* section 2 les plus populaires*/
                             
      .titresection2
  {  
+     
     font-family: "Raleway-bold";
-    font-weight: bold;
-    grid-template-rows: 1fr 1fr ;
-   grid-template-columns: 1fr;
    margin-left: 2%;
-   margin-top: 10%;
+   margin-top: 9%;
    
 }                          
- 
                             
  #logopop
                             
- {                             
-    grid-column: 1;                         
-    grid-row: 2;                           
-    margin-left: 40%;                                         
+{ 
+    padding-left: 20%;                         
+    
 }
  
 
@@ -473,7 +468,7 @@ main
                               /* bloc populaire*/
 #populaire
 {
-    
+    height: auto;
     border:transparent 1px;
     border-radius: 8%;
     background-color: #f2f2f2;
@@ -483,14 +478,20 @@ main
     
    
 }
+#populaire p
+{
+   margin:2%;
+}
 #populaire h3
 {
  font-family: "Raleway-bold";
+ margin:2%;
 }
 
 .textepop
 {
     margin-left: 2%;
+    margin:1%;
 }
 
 .soleil
@@ -559,6 +560,7 @@ main
     margin-bottom: 5%;
     margin-left: 2%;
     margin-right: 2%;  
+    box-shadow:5px 5px 5px 1px #f2f2f2; 
 }
 
                                         /* activité*/ 

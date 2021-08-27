@@ -11,18 +11,34 @@
                               border-bottom: grey 1px solid;
                               height:8em;
                             }
-                         #centrehaut
-                         {
-                             display: flex;
-                             flex-direction: column;
-                         }
+                        
                             .p1
                          {
+                             display: flex;
                              width: 100%;
                              font-size: xx-large;
                             justify-content: center;
-                            
+                            padding-bottom: 5%;
+                            font-weight: bold;
+                           
                          }   
+                            .h1
+                            {
+                                display: flex;
+                                text-align: center;
+                                 padding-top: 1%;
+                                 font-size: 2.7em;
+                                 font-family: "Raleway-bold";
+                                    
+                              
+                                
+                            }
+                       
+                         .p2
+                            {
+                            font-size: xx-large;
+                           
+                            }
                              #liens
                              {
                                                             
@@ -36,22 +52,26 @@
                          
                            #liens1
                            {
+                               width: 40%;
                                height: 7em;
                                display: flex;
                                align-content: center;
                                justify-content: center;
                                align-items: center;
-                               padding-top: 17%;
-                               padding-left:15% ;
+                               align-self: end;
+                               padding-top: 3%;
+                               
                            }
                            #liens2
                            {
+                               width: 60%;
                                height: 7em;
                                display: flex;
                                align-content: center;
                                justify-content: center;
                                align-items: center;
-                               padding-top: 17%;
+                               align-self: end;
+                               padding-top: 3%;
                            }
 
                            #liens1:hover
@@ -67,14 +87,7 @@
                                 width: 100%;
                            }
 
-                            
-                              .h1
-                             {
-                                padding-top: 1%;
-                                font-size: 2.7em;
-                                font-family: "Raleway-bold";
-                            }          
-                             
+                         
 
                             header 
                              {
@@ -132,17 +145,7 @@
                                 
                              }
                 
-                            .liens1
-                            {      
-                                padding-top: 25%;
-                                padding-right: 35%; 
-                            }
-                            .liens2
-                            {      
-                                padding-top: 25%;
-                                padding-right: 20%;  
-                            }
-                       
+                            
                        
                     
 
@@ -256,7 +259,7 @@
                             {
                               grid-column: 1;
                               grid-row: 2;
-                              margin-left:50%;
+                              margin-left: 30%;
                               
                             }
 
@@ -271,14 +274,16 @@
                            #populaire 
                             {
                               height: 100%;
-                              width: 90%;
+                              width: 100%;
                               display: flex;
                               flex-direction: column;
                               margin-bottom: 2%;
                               order: 1;
                               border: none;
+                              border-radius: 0%;
                             }
                         
+                            
                             .etoilepop
                             {
                                 display: flex;
@@ -319,7 +324,7 @@
                             
                             .coeurdeau
                             {  
-                               width: 30em;
+                               width: 22em;
                             }
                             /*activité*/ 
                             
@@ -332,6 +337,7 @@
                                 width: 70%;
                                 order: 3;
                                 height: 100em;
+                                padding-bottom: 10%;
                                
                             }
                             .align3
@@ -339,6 +345,7 @@
                                 grid-template-rows: 6fr;
                                 grid-template-columns: 100%;
                                 width: 100%;
+                               
                            }
                             .vieuxport
                             {
@@ -386,14 +393,21 @@
                           
                            footer
                              {
-                                
+                                padding-top: 2%;
                                 width: 100%;
                                 display: flex;
                                 flex-direction: column; 
                                 font-size: x-large;
                                 
                              }
-                          
-                            
+                           
+                           #apropos
+                           {
+                               padding-bottom: 5%;
+                           }
+                            #noshebergements
+                            {
+                                padding-bottom: 5%;
+                            }
                          }
                          
