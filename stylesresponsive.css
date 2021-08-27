@@ -11,8 +11,19 @@
                               border-bottom: grey 1px solid;
                               height:8em;
                             }
-                         
-                               #liens
+                         #centrehaut
+                         {
+                             display: flex;
+                             flex-direction: column;
+                         }
+                            .p1
+                         {
+                             width: 100%;
+                             font-size: xx-large;
+                            justify-content: center;
+                            
+                         }   
+                             #liens
                              {
                                                             
                                  padding-left: 0%;
@@ -22,12 +33,26 @@
                                  justify-content: space-between;
                                
                               }   
-                         #liens1
-                         {
-                             position: relative;
-                             bottom: 0%;
-                         }
-                           
+                         
+                           #liens1
+                           {
+                               height: 7em;
+                               display: flex;
+                               align-content: center;
+                               justify-content: center;
+                               align-items: center;
+                               padding-top: 17%;
+                               padding-left:15% ;
+                           }
+                           #liens2
+                           {
+                               height: 7em;
+                               display: flex;
+                               align-content: center;
+                               justify-content: center;
+                               align-items: center;
+                               padding-top: 17%;
+                           }
 
                            #liens1:hover
                            {
@@ -77,7 +102,7 @@
                                justify-content: flex-start;
                                width: auto;
                                display: grid;
-                               grid-template-columns: 1fr 1fr;
+                               grid-template-columns: 2fr 1fr;
                                grid-template-rows: 1fr 1fr 1fr;
                                gap:9%;
                                padding-right: 15%;
@@ -104,7 +129,7 @@
                                 grid-column: 1;
                                 grid-row: 3;
                                 width: 100%;
-                                flex-wrap: nowrap;
+                                
                              }
                 
                             .liens1
@@ -173,8 +198,8 @@
                                     /*hebergements*/
                             #hebergements
                              {
-                               
-                                 width: 70%;
+                                 box-shadow: none;
+                                 width: 80%;
                                  flex-direction: column;
                                  justify-content: center;
                                  background-color: white;
@@ -231,7 +256,7 @@
                             {
                               grid-column: 1;
                               grid-row: 2;
-                              padding-left: 50%;
+                              margin-left:50%;
                               
                             }
 
@@ -251,6 +276,7 @@
                               flex-direction: column;
                               margin-bottom: 2%;
                               order: 1;
+                              border: none;
                             }
                         
                             .etoilepop
@@ -316,22 +342,18 @@
                            }
                             .vieuxport
                             {
-                                display: grid;
                                 grid-column: 1;
                                 grid-row: 1;
-                                height: 15em;
-                               
+                                height: 15em;    
                             }
                            .fortpomegues
                            {
-                               display: grid;
                                grid-column: 1;
                                grid-row: 2;
                                height: 15em;
                            }
                            .frioul
                            {
-                               display: grid;
                                grid-column: 1;
                                grid-row: 3;
                                height: 15em;
@@ -339,14 +361,12 @@
 
                            .calanques
                            {
-                               display: grid;
                                grid-row: 4;
                                grid-column: 1;
                                height: 15em;
                            }
                            .notredame
                            {
-                            display: grid;
                             grid-column: 1;
                             grid-row: 5;
                             height: 15em;
@@ -354,7 +374,6 @@
                            
                            .longchamp
                            {
-                               display: grid;
                                grid-column: 1;
                                grid-row: 6;
                                height: 15em;
