@@ -29,12 +29,7 @@ body
  }
  
 
- a :hover
 
- {
-         background-color: #f2f2f2;
-         border: 1px solid  transparent;
- }
 
 main
 {
@@ -51,7 +46,7 @@ main
     margin-left: 2%;
     display: flex;
     justify-content: flex-start;
-    padding-top: 20%;
+    padding-top:15%;
 }
 
 .etoilepopeau
@@ -120,7 +115,11 @@ header
     display: flex ;
     width: 60%;
 }
-
+.liensimg
+{
+    height: 100%;
+    width: 100%;
+}
 #liens
 {
     height: 3.125em;
@@ -161,11 +160,19 @@ header
     border-top: 1px solid #0065fc;
     color: #0065fc;  
 }
-
+#lien3
+{
+    padding-top: 1%;
+}
 #liens3
 {
   color: #0065fc; 
-  
+  display: flex;
+  height: 3em;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
 }
 
                                             /*recherche barre*/
@@ -754,5 +761,5 @@ li a
 
 ul
 {
-    padding:0;
+    padding:0%;
 }
