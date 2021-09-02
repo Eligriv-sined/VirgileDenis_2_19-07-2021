@@ -38,7 +38,7 @@ main
 {
     padding-left: 2%;
      padding-right: 2%;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 1em;
@@ -626,7 +626,11 @@ header
   grid-gap: 5% 2%;
  
 }
-
+.vieuxportgrille
+{
+    grid-column: 1;
+    grid-row: span 2;
+}
 .vieuxport
 {
     display: grid;
@@ -640,6 +644,10 @@ header
     height: 100%;
     width: 100%;
 }
+ .texte p
+ {
+     padding-left: 5%;
+ }
 
 .texte
 {
@@ -649,8 +657,7 @@ header
     background-color: white;
     font-weight: 700;
     font-family: "Raleway-bold";
-    border-radius:0px 0px 15px 15px;
-    padding-left: 5%;   
+    border-radius:0px 0px 15px 15px;  
 }
 
 .fortpomegues
@@ -680,11 +687,23 @@ header
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     height: 11em;
+    width: 100%;
   margin-top: 15%;  
-   
-    
+
 }
 
+.frioulgrille
+{
+    
+    grid-column: 2;
+    grid-row: 2 ;
+   
+}
+.calanquesgrille
+{
+    grid-column: 3;
+    grid-row: span 2;
+}
 .calanques
 {
     display: grid;
