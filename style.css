@@ -20,9 +20,10 @@ body
  
  {
       font-family: "Raleway";
-    
-      
+
  }
+
+
 
  a                                        
  {
@@ -122,6 +123,11 @@ header
 {
     height: 100%;
     width: 100%;
+}
+
+#liens a
+{
+    width: 0;
 }
 #liens
 {
@@ -688,7 +694,7 @@ header
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     height: 11em;
     width: 100%;
-  margin-top: 15%;  
+  margin-top: 16%;  
 
 }
 
