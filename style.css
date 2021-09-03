@@ -57,7 +57,7 @@ main
     color:#0065fc;
     margin-left: 2%;
     justify-content: flex-start;
-    padding-top: 39%;
+    padding-top: 24%;
 }
    
 .etoilepopblanc
@@ -550,7 +550,7 @@ header
 .coeurdeau
 {
     background-image: url(images/hebergements/large/coeurdeau.jpg);
-    width: 22em;
+    width: 15em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
