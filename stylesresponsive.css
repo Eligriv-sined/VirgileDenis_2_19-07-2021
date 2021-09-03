@@ -179,6 +179,7 @@
                             justify-content: center;
                             align-items: center;
                             align-content: center;
+                            margin-top: 5%;
                           }
                           .logo2
                           {
@@ -230,28 +231,28 @@
                             
                              .cannebieres
                              {
-                                 height: 15em;
+                                 height: 9em;
                                 
                              }
                              .port
                              {
-                                 height: 15em;
+                                 height: 9em;
                              }
                              .mer
                              {
-                                 height: 15em;
+                                 height: 9em;
                              }
                              .mouettes
                              {
-                                 height: 15em;
+                                 height: 9em;
                              }
                              .panier
                              {
-                                 height: 15em;
+                                 height: 9em;
                              }
                              .amina
                              {
-                                 height: 15em;
+                                 height:9em;
                              }
 
                              .alingcont
@@ -292,7 +293,7 @@
                             margin-top:2%;
                             margin-bottom: 2%; 
                             width:90%;
-                            height: 40%;
+                            height: 10em;
                            }
                            
                            
@@ -314,7 +315,7 @@
                             {
                                 display: flex;
                                 color:#0065fc;
-                                padding-top: 100%;
+                                padding-top:59%;
                                 font-size: small;
 
                             }
@@ -322,17 +323,25 @@
                             {
                                 display: flex;
                                 color:#0065fc;
-                                padding-top: 100%;
+                                padding-top: 69%;
                                 font-size: small;
                                  
                             }
-
+                            .etoilepopblanc
+                            {
+                                display: flex;
+                                color:#0065fc;
+                                padding-top: 70%;
+                                font-size: small;
+                            }
                         
                            
                             .textepop
                             {
                                 font-size: 1.5em;
                                 margin: 2%;
+                                
+                                
                             }
 
                             
@@ -350,7 +359,7 @@
                                flex-direction: column;
                                 width:100%;
                                 order: 3;
-                                height: 100em;
+                                height: 82em;
                                 padding-bottom: 10%;
                                   
                                
@@ -359,7 +368,8 @@
                             {
                                 grid-template-rows: 6fr;
                                 grid-template-columns: 100%;
-                                width: 95%;
+                                width: 100%;
+                                
                                
                            }
                           
@@ -401,8 +411,8 @@
                             {
                                 grid-column: 1;
                                 grid-row: 1;
-                                height: 15em; 
-                                border-radius: 50px; 
+                                height: 12em; 
+                                border-radius: 20px; 
                                 background-image: url(images/activites/small/vieuxport.jpg);  
                             }
 
@@ -411,16 +421,16 @@
                            {
                                grid-column: 1;
                                grid-row: 2;
-                               height: 15em;
-                               border-radius: 50px;  
+                               height: 12em;
+                               border-radius: 20px;  
                                background-image: url(images/activites/small/fortpomegues.jpg); 
                            }
                            .frioul
                            {
                                grid-column: 1;
                                grid-row: 3;
-                               height: 15em;
-                               border-radius: 50px; 
+                               height: 12em;
+                               border-radius: 20px; 
                                margin-top: 0%;  
                                background-image: url(images/activites/small/frioul.jpg);
                             }
@@ -429,16 +439,16 @@
                            {
                                grid-row: 4;
                                grid-column: 1;
-                               height: 15em;
-                               border-radius: 50px; 
+                               height: 12em;
+                               border-radius: 20px; 
                                background-image: url(images/activites/small/calanques.jpg); 
                            }
                            .notredame
                            {
                             grid-column: 1;
                             grid-row: 5;
-                            height: 15em;
-                            border-radius: 50px;   
+                            height: 12em;
+                            border-radius: 20px;   
                             background-image: url(images/activites/small/notredames.jpg);
                            }
                            
@@ -446,8 +456,8 @@
                            {
                                grid-column: 1;
                                grid-row: 6;
-                               height: 15em;
-                               border-radius: 50px; 
+                               height: 12em;
+                               border-radius: 20px; 
                                background-image: url(images/activites/small/longchamp.jpg);  
                            }
 
