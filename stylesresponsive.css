@@ -283,7 +283,7 @@
                             {
                               grid-column: 1;
                               grid-row: 2;
-                              margin-left: 30%;
+                              margin-left: 10%;
                               
                             }
 
@@ -292,7 +292,7 @@
                             margin-top:2%;
                             margin-bottom: 2%; 
                             width:90%;
-                            height: 15em;
+                            height: 40%;
                            }
                            
                            
@@ -314,14 +314,16 @@
                             {
                                 display: flex;
                                 color:#0065fc;
-                                padding-top: 25%;
+                                padding-top: 100%;
+                                font-size: small;
 
                             }
                             .etoilepopeau
                             {
                                 display: flex;
                                 color:#0065fc;
-                                padding-top: 20%;
+                                padding-top: 100%;
+                                font-size: small;
                                  
                             }
 
@@ -336,7 +338,7 @@
                             
                             .coeurdeau
                             {  
-                               width: 17em;
+                               width: 21em;
                             }
                             /*activité*/ 
                             
@@ -350,6 +352,7 @@
                                 order: 3;
                                 height: 100em;
                                 padding-bottom: 10%;
+                                  
                                
                             }
                             .align3

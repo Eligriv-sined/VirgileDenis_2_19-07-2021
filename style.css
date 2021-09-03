@@ -363,11 +363,20 @@ header
 {
  transform: scale(1.1);
 }
+
+.alingcont h3
+{
+    font-size:small;
+}
+
+.alingcont p
+{
+    font-size: small;
+}
 .alingcont
 {
                              /*espacement externe*/
        
-       margin-bottom: 2%;
         margin-left: 5%;
         margin-right: 5%;
        
@@ -420,6 +429,8 @@ header
     border-radius: 10px;
 }
 
+
+
 .port
 {
     background-image: url(images/hebergements/large/port.jpg);
@@ -433,7 +444,7 @@ header
 
 .mouettes
 {
-    background-image: url(images/hebergements/large/mouettes.jpg);
+    background-image: url(images/hebergements/xlarge/mouettes.jpg);
     height: 7em;
     background-position: center;
     background-size: cover;
@@ -569,12 +580,14 @@ header
 .align2 p  
 {
     margin-left: 2%;
+    font-size: small;
 
 }
 
 .align2 h3  
 {
     margin-left: 2%;
+    font-size: small;
 }
 
 .align2:hover
