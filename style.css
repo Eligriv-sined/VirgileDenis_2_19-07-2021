@@ -60,7 +60,13 @@ main
     padding-top: 39%;
 }
    
-
+.etoilepopblanc
+{
+    display: flex;
+    color:#0065fc;
+    padding-top: 70%;
+    font-size: small;
+}
 
 .etoile
 {
