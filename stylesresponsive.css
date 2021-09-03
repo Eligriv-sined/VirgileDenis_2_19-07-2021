@@ -1,7 +1,7 @@
 
                          /* responsive design*/
 
-                         @media  all and (max-width : 800px) and (min-width:375px)
+                         @media  all and (max-width : 800px) and (min-width:100px)
                 {
                                                           /*header*/
                           .headtitre
