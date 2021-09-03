@@ -239,9 +239,6 @@ header
     display: none;
 }
 
-
-
-
                                         /* filtres*/
 
 .filtresmenus
@@ -252,9 +249,7 @@ header
     display: flex;
     font-family: "Raleway-bold";
     align-items: center;
-    
-    
-    
+
 }
   .bulle4
   {
@@ -286,9 +281,7 @@ header
   padding-right:1%;
   margin-right: 2%;
 }
-
-
-                            
+                     
 .bullelogo:hover
 {
     background-color: #deebff;
@@ -332,9 +325,6 @@ header
     padding-top: 2%;
     
 }
-
-
-
                                         /* section 1 hebergement*/
 
 .titresection
@@ -344,9 +334,7 @@ header
     margin-left: 2%;
     margin-top: 5%;
 }
-
-
-                                                      
+                                            
 .align p                                            
 {
     margin: 1%;
@@ -760,8 +748,6 @@ header
     box-shadow: 5px 5px 5px 1px #f2f2f2;
     height: 15em;
 }
-
-
                                                 /* FOOTER*/
 
 footer
@@ -772,8 +758,7 @@ footer
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding:2%;
-    
+    padding:2%;  
 }
 
 #apropos
