@@ -37,8 +37,7 @@ body
 
 main
 {
-    padding-left: 2%;
-     padding-right: 2%;
+   
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -119,15 +118,10 @@ header
     display: flex ;
     width: 60%;
 }
-.liensimg
-{
-    height: 100%;
-    width: 100%;
-}
 
 #liens a
 {
-    width: 0;
+    width: 0%;
 }
 #liens
 {
@@ -182,6 +176,7 @@ header
   justify-content: center;
   align-items: center;
 
+
 }
 
                                             /*recherche barre*/
@@ -211,12 +206,12 @@ header
 #logorecherche
 {
     height: 3em;
-    width: 10%;
+    width: 15%;
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center; 
-    border-radius: 15% 0 0 15%;
+    border-radius: 20% 0 0 20%;
     font-size: 1em ;
 }
 
@@ -236,6 +231,7 @@ header
   border: none;
   cursor: pointer;
   font-size: 1em ;
+  width: 40%;
 }
 
 #loupe
@@ -325,6 +321,7 @@ header
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-right: 1%;
 }
 
 .alignlogo
@@ -359,6 +356,7 @@ header
 {
     display: flex;
   justify-content: center;
+  padding-bottom: 5%;
 
 }
 .alingcont:hover
@@ -370,7 +368,7 @@ header
                              /*espacement externe*/
        
        margin-bottom: 2%;
-        margin-left: 1%;
+        margin-left: 5%;
         margin-right: 5%;
        
                              /*espacement interne*/
@@ -384,7 +382,7 @@ header
         
         border-radius: 30px;
         height: 100%;
-        width:100%;
+        width:80%;
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -414,8 +412,8 @@ header
 }
 .cannebieres
 {
-    background-image: url(images/small/cannebiere.jpg);
-    height:7.5em ;
+    background-image: url(images/hebergements/large/cannebieres.jpg);
+    height:7em ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -424,8 +422,8 @@ header
 
 .port
 {
-    background-image: url(images/small/port.jpg);
-    height: 7.5em;
+    background-image: url(images/hebergements/xlarge/port.jpg);
+    height: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -435,8 +433,8 @@ header
 
 .mouettes
 {
-    background-image: url(images/small/mouettes.jpg);
-    height: 7.5em;
+    background-image: url(images/hebergements/large/mouettes.jpg);
+    height: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -446,8 +444,8 @@ header
 
 .mer
 {  
-    background-image: url(images/small/mer.jpg);
-    height: 7.5em;
+    background-image: url(images/hebergements/large/mer.jpg);
+    height: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -458,8 +456,8 @@ header
 
 .panier
 {
-    background-image: url(images/small/panier.jpg);
-    height: 7.5em;
+    background-image: url(images/hebergements/large/panier.jpg);
+    height: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -468,8 +466,8 @@ header
 }
 .amina
 {
-    background-image: url(images/small/amina.jpg);
-    height: 7.5em;
+    background-image: url(images/hebergements/large/amina.jpg);
+    height: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -480,7 +478,7 @@ header
 {
    font-size: large;
    font-weight: bold;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
                             /* section 2 les plus populaires*/
@@ -535,7 +533,7 @@ header
 
 .soleil
 {
-    background-image: url(images/small/soleildumatin.jpg);  
+    background-image: url(images/hebergements/large/soleil.jpg);  
     width: 15em;
     background-position: center;
     background-size: cover;
@@ -546,7 +544,7 @@ header
 
 .coeurdeau
 {
-    background-image: url(images/small/aucoueurdeleau.jpg);
+    background-image: url(images/hebergements/large/coeurdeau.jpg);
     width: 22em;
     background-position: center;
     background-size: cover;
@@ -558,7 +556,7 @@ header
 
 .bleublanc
 {
-    background-image: url(images/small/bleuetblanc.jpg);
+    background-image: url(images/hebergements/large/bleublanc.jpg);
     width: 15em;
     background-position: center;
     background-size: cover;
@@ -642,7 +640,7 @@ header
     display: grid;
     grid-column: 1;
     grid-row: span 2 ;
-    background-image: url(images/activites/small/vieuxport.jpg);
+    background-image: url(images/activites/large/vieuxport.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 30px ;
@@ -672,7 +670,7 @@ header
     display: grid;
     grid-column: 2;
     grid-row: 1 ;
-    background-image: url(images/activites/small/fortpomegues.jpg);
+    background-image: url(images/activites/large/pomegues.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -687,7 +685,7 @@ header
     display: grid;
     grid-column: 2;
     grid-row: 2 ;
-    background-image: url(images/activites/small/frioul.jpg);
+    background-image: url(images/activites/large/frioul.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -715,7 +713,7 @@ header
     display: grid;
     grid-column: 3;
     grid-row: span 2 ;
-    background-image: url(images/activites/small/calanques.jpg);
+    background-image: url(images/activites/large/calanques.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -729,7 +727,7 @@ header
     display: grid;
     grid-column:4;
     grid-row: 1 ;
-    background-image: url(images/activites/small/notredames.jpg);
+    background-image: url(images/activites/large/notredame.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
@@ -742,7 +740,7 @@ header
     display: grid;
     grid-column:4;
     grid-row: 2 ;
-    background-image: url(images/activites/small/longchamp.jpg);
+    background-image: url(images/activites/large/longchamp.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 15px;
