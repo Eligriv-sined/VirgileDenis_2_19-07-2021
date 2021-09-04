@@ -1,7 +1,6 @@
                                             
                                             /* Body */
 
-                                            /*prendre grande img pour bureau petite pour mobile*/
 
 
 @font-face 
@@ -40,7 +39,7 @@ body
 main
 {
    
-    width: 100%;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     margin-top: 1em;
@@ -51,6 +50,7 @@ main
     margin-left: 2%;
     display: flex;
     
+  
 }
 
 .etoilegris
@@ -61,7 +61,7 @@ main
 .etoile
 {
     color:#0065fc;
-    margin-left: 2%;
+    margin-left: 5%;
     
 }
 
@@ -351,11 +351,13 @@ header
 .alingcont h3
 {
     font-size:small;
+  white-space: nowrap;;
 }
 
 .alingcont p
 {
     font-size: small;
+    margin-left: 5%;
 }
 .alingcont
 {
@@ -401,7 +403,7 @@ header
 #hebergements h3
 {
     font-family: "Raleway-bold";
-    margin:1%;
+    margin: 5%;
 }
 .cannebieres
 {
@@ -491,9 +493,10 @@ header
 .logopopu
 
 {
+    width: 30%;
     display: flex;
     align-items: center;
-    padding-left :35%;
+    justify-content: flex-end;
     font-size: x-large;
  
 }
@@ -513,7 +516,7 @@ header
 }    
    
 
-#populaire h3
+#populaire h2
 {
  font-family: "Raleway-bold";
  margin:2%;
@@ -524,12 +527,15 @@ header
 
 .textepop
 {
+    height:90%;
     width: 100%;
     margin-top: 2%;
     margin-left: 1%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    
+    
 }
 
 

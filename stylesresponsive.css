@@ -11,13 +11,13 @@
                             }
                         main
                             {
-                                width: 100%;
-                               
+                                width: auto;
                                  display: flex;   
                                 justify-content: center;
                                 align-content:center ;
                                 align-items: center;
                                 align-self: center;
+                              
                                     
                             }
                         .p1
@@ -129,12 +129,12 @@
                                  flex-wrap: wrap;
                                  width: 100%;
                                  height: 100%;
-                                font-size: medium;
+                                font-size: small;
                              }
                        
                              .filtresmenus
                              {
-                                font-size: medium;
+                                font-size: small;
                                  flex-direction: column;
                                  width: 100%;
                                  padding-bottom: 2%;
@@ -193,12 +193,7 @@
                               margin-right: 3%;
                           }
                                                 /*body*/
-                         
-                            body
-                            {
-                                width: 100%;
-                            }                        
-
+               
                             #recherchebarre
                             {
                                 width: 100%;
@@ -229,14 +224,22 @@
                             #hebergements
                              {
                                  box-shadow: none;
-                                 width: 100%;
+                                 width:97%;
                                  flex-direction: column;
                                  justify-content: center;
                                  background-color: white;
                                  order:2;
                                 
                              }
-                            
+                             
+                             #hebergements h3
+                             {
+                                 margin: 1%;
+                             }
+                             .alingcont p
+                            {
+                                margin-left: 1%;
+                            }
                              .cannebieres
                              {
                                  height: 9em;
@@ -271,7 +274,7 @@
                              .align
                              {
                                  flex-direction: column;
-                                width: 100%;
+                                width: auto;
                                
                              }    
                          
@@ -294,6 +297,7 @@
                           .logopopu
                           
                           {
+                              padding-left: 0%;
                             width: 100%;
                               display: flex;
                              justify-content: center;
@@ -320,7 +324,16 @@
                               border: none;
                               border-radius: 0%;
                             }
-                        
+
+                            .etoilegris
+                            {
+                                color: #f2f2f2;
+                            }
+                            
+                            .etoile
+                            {
+                                margin-left: 2%;
+                            }
                             
                             .etoilepop
                             {
@@ -332,11 +345,9 @@
                            
                             .textepop
                             {
-                                
                                 font-size: 1.5em;
                                 margin: 2%;
-                                width: 100%;
-                                
+                                width: 100%;   
                             }
 
                             
@@ -352,20 +363,17 @@
                             {
                                display: flex;
                                flex-direction: column;
-                                width:100%;
+                                width:97%;
                                 order: 3;
                                 height: 82em;
                                 padding-bottom: 10%;
-                                  
-                               
+  
                             }
                             .align3
                             {
                                 grid-template-rows: 6fr;
                                 grid-template-columns: 100%;
-                                width: 100%;
-                                
-                               
+                                width: auto;  
                            }
                           
                             .vieuxportgrille
