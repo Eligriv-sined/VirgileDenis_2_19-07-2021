@@ -44,6 +44,7 @@ main
     flex-wrap: wrap;
     margin-top: 1em;
 }
+
 .etoilepop
 {
     color:#0065fc;
@@ -765,7 +766,7 @@ footer
     border: 1px transparent black;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: auto;
     padding:2%;  
 }
 
