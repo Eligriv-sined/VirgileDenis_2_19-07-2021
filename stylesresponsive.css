@@ -171,9 +171,11 @@
                             }
                              .bulle4
                              {
-                                grid-column: 1;
+                                
+                                grid-column:  1;
                                 grid-row: 3;
                                 width: 100%;
+                               white-space: nowrap;
                                 
                              }
                 
