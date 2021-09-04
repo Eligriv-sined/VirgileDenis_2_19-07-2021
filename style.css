@@ -53,19 +53,9 @@ main
     
 }
 
-.etoilepopeau
+.etoilegris
 {
-    color:#0065fc;
-    margin-left: 2%;
-    
-} 
-   
-.etoilepopblanc
-{
-    display: flex;
-    color:#0065fc;
-    margin-left: 2%;
-
+    color:#f2f2f2;
 }
 
 .etoile
