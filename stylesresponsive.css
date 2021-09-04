@@ -221,15 +221,17 @@
                             }
                            
                                     /*hebergements*/
+                          
+                            
                             #hebergements
-                             {
+                           
+                            {
                                  box-shadow: none;
                                  width:97%;
                                  flex-direction: column;
                                  justify-content: center;
                                  background-color: white;
                                  order:2;
-                                
                              }
                              
                              #hebergements h3
