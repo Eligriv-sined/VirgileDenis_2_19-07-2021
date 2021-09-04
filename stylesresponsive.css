@@ -281,20 +281,20 @@
                             
                            .titresection2
                            {  
-                             width: 70%;
+                             
                                display: flex;
                               font-family: "Raleway-bold";
-                             margin-left: 2%;
-                             margin-top: 5%;
+                             margin-left: 0%;
+                             margin-top: 0%;
                             white-space: nowrap;
                         }     
                           
                           .logopopu
                           
                           {
+                            width: 100%;
                               display: flex;
-                              align-items: center;
-                             justify-content: flex-end;
+                             justify-content: center;
                           }
                         
                            .align2
@@ -330,6 +330,7 @@
                            
                             .textepop
                             {
+                                
                                 font-size: 1.5em;
                                 margin: 2%;
                                 width: 100%;
